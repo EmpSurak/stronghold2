@@ -49,15 +49,9 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="45.1503" t1="122.576" t2="24.0667" s0="1" s1="1" s2="1" q0="0.137084" q1="-0.827318" q2="0.229574" q3="0.494012" euler_x="-2.60023" euler_y="-1.0766" euler_z="-3.14159" id="1">
+    <CameraObject t0="41.87" t1="286.043" t2="-5.54828" s0="1" s1="1" s2="1" q0="0.302984" q1="-0.663701" q2="0.338354" q3="0.594321" euler_x="-2.19868" euler_y="-1.46061" euler_z="-3.14159" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject t0="-150" t1="148.813" t2="1.90735e-006" s0="10" s1="10" s2="10" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
-        <parameters />
-    </EnvObject>
-    <EnvObject t0="-150" t1="49.0278" t2="0" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
-        <parameters />
-    </EnvObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
         <parameters />
     </EnvObject>
@@ -134,9 +128,6 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="-63.1125" t1="2.75496" t2="172.19" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="9" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Well.xml">
-        <parameters />
-    </EnvObject>
-    <EnvObject t0="-150" t1="25" t2="0" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml">
         <parameters />
     </EnvObject>
     <Group t0="0.5" t1="4.75" t2="30" s0="39.02" s1="10.02" s2="40.02" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="23" version="1">
@@ -256,9 +247,6 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject t0="-150" t1="172.741" t2="-6.25849e-006" s0="10" s1="10" s2="10" q0="-1" q1="0" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="0" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
-        <parameters />
-    </EnvObject>
     <DynamicLightObject t0="-3.50922" t1="1.53238" t2="137.628" s0="13.9505" s1="13.9505" s2="13.9505" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="55" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
         <parameters />
     </DynamicLightObject>
@@ -293,9 +281,6 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="-447.799" t1="47.9865" t2="-61.4863" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="67" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
-        <parameters />
-    </EnvObject>
-    <EnvObject t0="-146.455" t1="106.075" t2="-0.312526" s0="10.2418" s1="25.8318" s2="6.45431" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="68" color_r="0" color_g="1" color_b="0.0238097" overbright="5" type_file="Data/Prototypes/MagmaArena/MagmaFlow_Fall2.xml">
         <parameters />
     </EnvObject>
     <Hotspot t0="-27.7914" t1="10.9549" t2="128.898" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="69" type_file="Data/Objects/Hotspots/emitter.xml">
@@ -981,6 +966,24 @@
     <EnvObject t0="-200.988" t1="56.1064" t2="459.954" s0="20" s1="20" s2="20" q0="0" q1="-0.981991" q2="0" q3="0.188926" euler_x="-3.14159" euler_y="-0.380137" euler_z="3.14159" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml">
         <parameters />
     </EnvObject>
+    <Group t0="-123.786" t1="98.8702" t2="-6.41269" s0="100.017" s1="197.752" s2="100.013" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751191" euler_z="0" id="222" version="1">
+        <parameters />
+        <EnvObject t0="-123.785" t1="148.813" t2="-6.4161" s0="10" s1="10" s2="10" q0="0.366826" q1="0" q2="0.930289" q3="0" euler_x="0" euler_y="-0.751191" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-123.788" t1="49.0272" t2="-6.40926" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751191" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-123.788" t1="24.9994" t2="-6.40926" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751191" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-123.785" t1="172.741" t2="-6.41611" s0="10" s1="10" s2="10" q0="-0.930289" q1="0" q2="0.366826" q3="0" euler_x="-3.14159" euler_y="0.751191" euler_z="0" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-121.41" t1="106.074" t2="-9.05718" s0="10.2418" s1="25.8318" s2="6.45431" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751191" euler_z="0" id="68" color_r="0" color_g="1" color_b="0.0238097" overbright="5" type_file="Data/Prototypes/MagmaArena/MagmaFlow_Fall2.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />

@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-37.5185" t1="42.6095" t2="37.8708" s0="1" s1="1" s2="1" q0="-0.00625173" q1="-0.981859" q2="0.186632" q3="-0.0328898" euler_x="-2.76591" euler_y="0.0669699" euler_z="3.14159" id="1">
+    <CameraObject t0="-113.202" t1="2.81824" t2="-195.85" s0="1" s1="1" s2="1" q0="-0.0984039" q1="0.495646" q2="-0.0566428" q3="-0.861071" euler_x="0.227574" euler_y="-1.04459" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
@@ -921,7 +921,7 @@
     <EnvObject t0="-81.163" t1="10.4546" t2="-192.047" s0="10" s1="10" s2="10" q0="0" q1="0.657535" q2="0" q3="0.753424" euler_x="0" euler_y="1.43508" euler_z="0" id="199" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Viking boat.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-119.351" t1="0.683823" t2="-198.984" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="200" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Easy_Animated_Enemy_Pack/Frog.xml">
+    <EnvObject t0="-119.351" t1="0.244002" t2="-198.984" s0="0.355621" s1="0.355621" s2="0.355621" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="200" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Easy_Animated_Enemy_Pack/Frog.xml">
         <parameters />
     </EnvObject>
     <Decal t0="-119.594" t1="-0.170221" t2="-199.197" s0="8.85202" s1="0.34922" s2="8.85202" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="201" type_file="Data/Objects/Decals/fall_leaves.xml" color_r="1" color_g="1" color_b="1" overbright="0">

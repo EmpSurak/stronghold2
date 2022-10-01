@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-10.9792" t1="5.36639" t2="132.996" s0="1" s1="1" s2="1" q0="0.10123" q1="0.870248" q2="-0.201047" q3="0.43818" euler_x="-2.68751" euler_y="0.932907" euler_z="3.14159" id="1">
+    <CameraObject t0="111.83" t1="73.9283" t2="71.3026" s0="1" s1="1" s2="1" q0="0.115695" q1="-0.855656" q2="0.217499" q3="0.455149" euler_x="-2.64376" euler_y="-0.977728" euler_z="-3.14159" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-150" t1="148.813" t2="1.90735e-006" s0="10" s1="10" s2="10" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
@@ -547,10 +547,10 @@
         </Connections>
         <ItemConnections />
         <Palette>
-            <Color label="Fur" channel="0" red="0.573518" green="0.317647" blue="1" />
-            <Color label="Leather" channel="1" red="0.211765" green="0.380711" blue="1" />
-            <Color label="Shirt" channel="2" red="0.188235" green="0.22705" blue="1" />
-            <Color label="Pants" channel="3" red="0.588235" green="0.821099" blue="1" />
+            <Color label="Fur" channel="0" red="0.411765" green="0.286275" blue="0.211765" />
+            <Color label="Back" channel="1" red="0.207843" green="0.109804" blue="0.0392157" />
+            <Color label="Neck" channel="2" red="0.411765" green="0.286275" blue="0.211765" />
+            <Color label="Legs" channel="3" red="1" green="1" blue="1" />
         </Palette>
     </ActorObject>
     <ActorObject t0="-67.2179" t1="1" t2="173.538" s0="1" s1="1" s2="1" q0="0" q1="0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="1.0472" euler_z="3.14159" id="139" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
@@ -757,6 +757,27 @@
             <parameters />
         </EnvObject>
     </ActorObject>
+    <EnvObject t0="-111.536" t1="47.3865" t2="-308.478" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="159" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-286.874" t1="47.3865" t2="-394.966" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="160" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="130.372" t1="47.3865" t2="-394.966" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="161" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-32.4463" t1="47.3865" t2="-443.717" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="165" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-240.228" t1="47.3865" t2="-579.285" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="166" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="347.021" t1="47.3865" t2="-478.156" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="167" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="137.968" t1="47.3865" t2="-659.932" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="168" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+        <parameters />
+    </EnvObject>
     <ActorObject t0="-11.7274" t1="1.00012" t2="37.8223" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="-0.231477" euler_y="-1.57045" euler_z="0.231477" id="180" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
@@ -1020,4 +1041,5 @@
     <SpawnerItem display_name="Dynamic Light" path="Data/Objects/default_light.xml" thumbnail_path="" />
     <SpawnerItem display_name="Particle Emitter Hotspot" path="Data/Objects/Hotspots/emitter.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/emitter_icon.png" />
     <SpawnerItem display_name="Rabbit Skull" path="Data/Objects/therium/rabbit_skull_decal.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Wave" path="Data/Custom/twowolves/jims_playground/Objects/wave.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/wave.png" />
 </RecentItems>

@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="111.83" t1="73.9283" t2="71.3026" s0="1" s1="1" s2="1" q0="0.115695" q1="-0.855656" q2="0.217499" q3="0.455149" euler_x="-2.64376" euler_y="-0.977728" euler_z="-3.14159" id="1">
+    <CameraObject t0="71.5311" t1="342.511" t2="128.246" s0="1" s1="1" s2="1" q0="0.305339" q1="-0.69194" q2="0.42426" q3="0.497987" euler_x="-2.04153" euler_y="-1.24765" euler_z="3.14159" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-150" t1="148.813" t2="1.90735e-006" s0="10" s1="10" s2="10" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
@@ -548,9 +548,9 @@
         <ItemConnections />
         <Palette>
             <Color label="Fur" channel="0" red="0.411765" green="0.286275" blue="0.211765" />
-            <Color label="Back" channel="1" red="0.207843" green="0.109804" blue="0.0392157" />
-            <Color label="Neck" channel="2" red="0.411765" green="0.286275" blue="0.211765" />
-            <Color label="Legs" channel="3" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Pants" channel="3" red="1" green="1" blue="1" />
         </Palette>
     </ActorObject>
     <ActorObject t0="-67.2179" t1="1" t2="173.538" s0="1" s1="1" s2="1" q0="0" q1="0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="1.0472" euler_z="3.14159" id="139" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
@@ -691,6 +691,9 @@
             <parameters />
         </EnvObject>
     </ActorObject>
+    <EnvObject t0="-81.6157" t1="56.1064" t2="324.191" s0="20" s1="20" s2="20" q0="0" q1="-0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="-0.523599" euler_z="0" id="145" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="-3.63706" t1="0.788277" t2="137.137" s0="5" s1="5" s2="5" q0="0" q1="0.327442" q2="0" q3="0.944871" euler_x="0" euler_y="0.66719" euler_z="0" id="146" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Bonfire_Lit.xml">
         <parameters />
     </EnvObject>
@@ -776,6 +779,21 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="137.968" t1="47.3865" t2="-659.932" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="168" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="67.7622" t1="22.7753" t2="186.845" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="169" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="118.469" t1="22.3618" t2="157.924" s0="10" s1="10" s2="10" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="-1.57045" euler_z="0" id="170" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="124.352" t1="41.9309" t2="280.618" s0="15" s1="15" s2="15" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="171" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building3_Small.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-14.2433" t1="26.2276" t2="244.053" s0="10" s1="10" s2="15.3298" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="172" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building4.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="41.5983" t1="31.6952" t2="282.656" s0="16.548" s1="14.8837" s2="13.0593" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="173" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
         <parameters />
     </EnvObject>
     <ActorObject t0="-11.7274" t1="1.00012" t2="37.8223" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="-0.231477" euler_y="-1.57045" euler_z="0.231477" id="180" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
@@ -1042,4 +1060,9 @@
     <SpawnerItem display_name="Particle Emitter Hotspot" path="Data/Objects/Hotspots/emitter.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/emitter_icon.png" />
     <SpawnerItem display_name="Rabbit Skull" path="Data/Objects/therium/rabbit_skull_decal.xml" thumbnail_path="" />
     <SpawnerItem display_name="Wave" path="Data/Custom/twowolves/jims_playground/Objects/wave.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/wave.png" />
+    <SpawnerItem display_name="Building1 Large" path="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building1_Large_N.png" />
+    <SpawnerItem display_name="Building1 Small" path="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building1_Small_N.png" />
+    <SpawnerItem display_name="Building4" path="Data/Objects/quaternius/Buildings_Pack/Building4.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building4_N.png" />
+    <SpawnerItem display_name="Building3 Small" path="Data/Objects/quaternius/Buildings_Pack/Building3_Small.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building3_Small_N.png" />
+    <SpawnerItem display_name="Building2 Large" path="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building2_Large_N.png" />
 </RecentItems>

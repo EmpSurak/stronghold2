@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-49.1842" t1="107.512" t2="64.2182" s0="1" s1="1" s2="1" q0="0.245736" q1="0.0704598" q2="-0.0179127" q3="0.966607" euler_x="0.497902" euler_y="0.145531" euler_z="0" id="1">
+    <CameraObject t0="-67.1234" t1="11.1529" t2="-170.599" s0="1" s1="1" s2="1" q0="0.138324" q1="0.266946" q2="-0.0387483" q3="0.952945" euler_x="0.288295" euler_y="0.546254" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-150" t1="148.813" t2="1.90735e-006" s0="10" s1="10" s2="10" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
@@ -769,6 +769,9 @@
     <EnvObject t0="130.372" t1="47.3865" t2="-394.966" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="161" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-41.3693" t1="-0.618051" t2="-174.33" s0="0.5" s1="0.5" s2="0.5" q0="0" q1="0.276886" q2="0" q3="0.960903" euler_x="0" euler_y="0.561104" euler_z="0" id="164" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/OpethRockr55/Objects/Environment/Statues/WhaleManStatue.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="-32.4463" t1="47.3865" t2="-443.717" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="165" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
@@ -927,6 +930,12 @@
     <EnvObject t0="-137.212" t1="0" t2="-146.233" s0="10" s1="10" s2="10" q0="0" q1="-0.808225" q2="0" q3="0.588874" euler_x="-3.14159" euler_y="-1.25933" euler_z="3.14159" id="217" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-49.6585" t1="-1.90735e-006" t2="-207.746" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="218" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-1236.62" t1="49.506" t2="-331.743" s0="20" s1="20" s2="20" q0="0.316398" q1="0" q2="0" q3="0.948627" euler_x="0.64386" euler_y="0" euler_z="0" id="219" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/tri.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
@@ -1077,7 +1086,6 @@
     <SpawnerItem display_name="Ambient Sound Hotspot" path="Data/Objects/Hotspots/ambient_sound.xml" thumbnail_path="Data/UI/spawner/thumbs/Sounds/speaker_icon.png" />
     <SpawnerItem display_name="Cicada" path="Data/Objects/therium/cicada.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Cicada Statue" path="Data/Objects/therium/cicadastatue.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
-    <SpawnerItem display_name="Whale Man" path="Data/Custom/OpethRockr55/Objects/Environment/Statues/WhaleManStatue.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Whaleman.png" />
     <SpawnerItem display_name="Fire" path="Data/Objects/fire.xml" thumbnail_path="" />
     <SpawnerItem display_name="Tree Evergreen Log Mossy" path="Data/Objects/Plants/Trees/temperate/evergreen_log_mossy.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/evergreen_log_mossy.png" />
     <SpawnerItem display_name="Tree Small Evergreen Log Bleached" path="Data/Objects/Plants/Trees/temperate/small_evergreen_log_bleached.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/small_evergreen_log_bleached.png" />
@@ -1151,4 +1159,6 @@
     <SpawnerItem display_name="Rock2" path="Data/Objects/quaternius/Platformer_Pack/Rock2.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Platformer_Pack/Rock2_N.png" />
     <SpawnerItem display_name="Rock1" path="Data/Objects/quaternius/Platformer_Pack/Rock1.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Platformer_Pack/Rock1_N.png" />
     <SpawnerItem display_name="Rock1" path="Data/Objects/quaternius/Simple_Nature_Pack/Rock1.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Simple_Nature_Pack/Rock1_N.png" />
+    <SpawnerItem display_name="Skeleton" path="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Animated_Monster_Pack/Skeleton_N.png" />
+    <SpawnerItem display_name="Whale Man" path="Data/Custom/OpethRockr55/Objects/Environment/Statues/WhaleManStatue.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Whaleman.png" />
 </RecentItems>

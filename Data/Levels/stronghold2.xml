@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="41.87" t1="286.043" t2="-5.54828" s0="1" s1="1" s2="1" q0="0.302984" q1="-0.663701" q2="0.338354" q3="0.594321" euler_x="-2.19868" euler_y="-1.46061" euler_z="-3.14159" id="1">
+    <CameraObject t0="-37.5185" t1="42.6095" t2="37.8708" s0="1" s1="1" s2="1" q0="-0.00625173" q1="-0.981859" q2="0.186632" q3="-0.0328898" euler_x="-2.76591" euler_y="0.0669699" euler_z="3.14159" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
@@ -532,10 +532,10 @@
         </Connections>
         <ItemConnections />
         <Palette>
-            <Color label="Fur" channel="0" red="0.67451" green="0.486275" blue="0.243137" />
-            <Color label="Back" channel="1" red="0.207843" green="0.109804" blue="0.0392157" />
-            <Color label="Neck" channel="2" red="0.537255" green="0.537255" blue="0.537255" />
-            <Color label="Legs" channel="3" red="0.67451" green="0.486275" blue="0.243137" />
+            <Color label="Fur" channel="0" red="0.133333" green="0.133333" blue="0.133333" />
+            <Color label="Pants" channel="1" red="0.67817" green="0.780523" blue="0.756993" />
+            <Color label="Shirt" channel="2" red="0.643922" green="0.542745" blue="0.413333" />
+            <Color label="Leather" channel="3" red="0.485098" green="0.752157" blue="0.715686" />
         </Palette>
     </ActorObject>
     <ActorObject t0="-67.2179" t1="1" t2="173.538" s0="1" s1="1" s2="1" q0="0" q1="0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="1.0472" euler_z="3.14159" id="139" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
@@ -745,6 +745,12 @@
             <parameters />
         </EnvObject>
     </ActorObject>
+    <EnvObject t0="-281.023" t1="13.9332" t2="138.555" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Barn.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-234.283" t1="4.8422" t2="99.0706" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Well.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="-111.536" t1="47.3865" t2="-308.478" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="159" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
@@ -752,6 +758,12 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="130.372" t1="47.3865" t2="-394.966" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="161" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-187.782" t1="4.44563" t2="136.7" s0="5" s1="5" s2="5" q0="0" q1="-0.998674" q2="0" q3="0.0514753" euler_x="-3.14159" euler_y="-0.102996" euler_z="3.14159" id="162" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/ChickenCoop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-315.512" t1="13.9165" t2="130.502" s0="5" s1="5" s2="5" q0="0" q1="0.829876" q2="0" q3="0.557948" euler_x="3.14159" euler_y="1.18382" euler_z="3.14159" id="163" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Silo.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-41.3693" t1="-0.618051" t2="-174.33" s0="0.5" s1="0.5" s2="0.5" q0="0" q1="0.276886" q2="0" q3="0.960903" euler_x="0" euler_y="0.561104" euler_z="0" id="164" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/OpethRockr55/Objects/Environment/Statues/WhaleManStatue.xml">
@@ -782,6 +794,12 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="41.5983" t1="31.6952" t2="282.656" s0="16.548" s1="14.8837" s2="13.0593" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="173" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-321.469" t1="13.9165" t2="115.885" s0="5" s1="5" s2="5" q0="0" q1="0.829876" q2="0" q3="0.557948" euler_x="3.14159" euler_y="1.18382" euler_z="3.14159" id="174" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Silo.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-309.339" t1="13.9165" t2="145.649" s0="5" s1="5" s2="5" q0="0" q1="0.829876" q2="0" q3="0.557948" euler_x="3.14159" euler_y="1.18382" euler_z="3.14159" id="176" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Silo.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="222.19" t1="22.7753" t2="186.845" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="177" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
@@ -871,6 +889,9 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="295.773" t1="33.7772" t2="297.034" s0="15" s1="15" s2="15" q0="0" q1="0.396298" q2="0" q3="0.918122" euler_x="0" euler_y="0.814962" euler_z="0" id="189" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-245.072" t1="2.07304" t2="118.76" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="190" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-314.343" t1="23.523" t2="139.731" s0="10" s1="10" s2="10" q0="0.557669" q1="-0.434748" q2="0.434748" q3="0.557669" euler_x="1.5708" euler_y="-1.32434" euler_z="0" id="191" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
@@ -984,6 +1005,30 @@
             <parameters />
         </EnvObject>
     </Group>
+    <EnvObject t0="-186.152" t1="2.07304" t2="118.76" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="223" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-215.56" t1="2.07304" t2="118.76" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="224" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-171.852" t1="2.07304" t2="128.904" s0="5" s1="5" s2="5" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="-1.57045" euler_z="0" id="225" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-224.073" t1="4.44563" t2="140.451" s0="5" s1="5" s2="5" q0="0" q1="-0.987785" q2="0" q3="-0.155821" euler_x="3.14159" euler_y="0.312917" euler_z="3.14159" id="226" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/ChickenCoop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-214.72" t1="-1.90735e-006" t2="133.173" s0="2" s1="2" s2="2" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="227" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Food_Pack/ChickenLeg.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-214.72" t1="0" t2="130.542" s0="2" s1="2" s2="2" q0="0.284574" q1="0.514825" q2="-0.186165" q3="0.786966" euler_x="0.693958" euler_y="1.15863" euler_z="0" id="228" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Food_Pack/ChickenLeg.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-188.477" t1="13.2873" t2="84.146" s0="3.77013" s1="3.77013" s2="3.77013" q0="0" q1="0.687604" q2="0" q3="0.726085" euler_x="1.5911e-006" euler_y="1.51637" euler_z="1.50677e-006" id="229" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/WaterTower.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-238.195" t1="-9.05968" t2="101.75" s0="44.6829" s1="21.5347" s2="33.3182" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="230" type_file="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
@@ -1209,4 +1254,13 @@
     <SpawnerItem display_name="Rock1" path="Data/Objects/quaternius/Simple_Nature_Pack/Rock1.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Simple_Nature_Pack/Rock1_N.png" />
     <SpawnerItem display_name="Skeleton" path="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Animated_Monster_Pack/Skeleton_N.png" />
     <SpawnerItem display_name="Whale Man" path="Data/Custom/OpethRockr55/Objects/Environment/Statues/WhaleManStatue.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Whaleman.png" />
+    <SpawnerItem display_name="Windmill" path="Data/Objects/quaternius/Farm_Buildings/Windmill.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/Windmill_N.png" />
+    <SpawnerItem display_name="Well" path="Data/Objects/quaternius/Farm_Buildings/Well.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/Well_N.png" />
+    <SpawnerItem display_name="Chickencoop" path="Data/Objects/quaternius/Farm_Buildings/ChickenCoop.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/ChickenCoop_N.png" />
+    <SpawnerItem display_name="Barn" path="Data/Objects/quaternius/Farm_Buildings/Barn.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/Barn_N.png" />
+    <SpawnerItem display_name="Silo" path="Data/Objects/quaternius/Farm_Buildings/Silo.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/Silo_N.png" />
+    <SpawnerItem display_name="Fence" path="Data/Objects/quaternius/Farm_Buildings/Fence.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/Fence_N.png" />
+    <SpawnerItem display_name="Chickenleg" path="Data/Objects/quaternius/Ultimate_Food_Pack/ChickenLeg.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ultimate_Food_Pack/ChickenLeg_N.png" />
+    <SpawnerItem display_name="Watertower" path="Data/Objects/quaternius/Farm_Buildings/WaterTower.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/WaterTower_N.png" />
+    <SpawnerItem display_name="Dripping Rust Spot" path="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/dripping_rust_spot.png" />
 </RecentItems>

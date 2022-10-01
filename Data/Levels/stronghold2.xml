@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="71.5311" t1="342.511" t2="128.246" s0="1" s1="1" s2="1" q0="0.305339" q1="-0.69194" q2="0.42426" q3="0.497987" euler_x="-2.04153" euler_y="-1.24765" euler_z="3.14159" id="1">
+    <CameraObject t0="42.7023" t1="163.805" t2="56.9501" s0="1" s1="1" s2="1" q0="-0.271166" q1="0.436368" q2="-0.13979" q3="-0.84647" euler_x="0.620039" euler_y="-0.951965" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-150" t1="148.813" t2="1.90735e-006" s0="10" s1="10" s2="10" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
@@ -61,7 +61,7 @@
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="-2.4163" t1="1" t2="37.3307" s0="1" s1="1" s2="1" q0="0" q1="0.965926" q2="0" q3="-0.258819" euler_x="-3.14159" euler_y="-0.523599" euler_z="3.14159" id="6" type_file="Data/Objects/stronghold2/characters/rabbot_flag_bearer_actor.xml" is_player="0">
+    <ActorObject t0="-2.4163" t1="1" t2="37.3307" s0="1" s1="1" s2="1" q0="0" q1="0.965926" q2="0" q3="-0.258819" euler_x="3.14159" euler_y="-0.523599" euler_z="3.14159" id="6" type_file="Data/Objects/stronghold2/characters/rabbot_flag_bearer_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -256,7 +256,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject t0="-150" t1="172.741" t2="-6.25849e-006" s0="10" s1="10" s2="10" q0="-1" q1="0" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="0" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml">
+    <EnvObject t0="-150" t1="172.741" t2="-6.25849e-006" s0="10" s1="10" s2="10" q0="-1" q1="0" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="0" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <DynamicLightObject t0="-3.50922" t1="1.53238" t2="137.628" s0="13.9505" s1="13.9505" s2="13.9505" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="55" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
@@ -393,76 +393,76 @@
         <parameters />
         <Group t0="604.317" t1="97.3818" t2="9.45313" s0="499.872" s1="199.8" s2="125.062" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="101" version="1">
             <parameters />
-            <EnvObject t0="597.91" t1="97.3818" t2="9.45313" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="102" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="597.91" t1="97.3818" t2="9.45313" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="102" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="418.515" t1="97.3818" t2="9.45313" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="103" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="418.515" t1="97.3818" t2="9.45313" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="103" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="790.119" t1="97.3818" t2="9.45313" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="790.119" t1="97.3818" t2="9.45313" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
         </Group>
         <Group t0="604.317" t1="97.3818" t2="196.859" s0="499.872" s1="199.8" s2="125.062" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="105" version="1">
             <parameters />
-            <EnvObject t0="597.91" t1="97.3818" t2="196.859" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="106" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="597.91" t1="97.3818" t2="196.859" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="106" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="418.515" t1="97.3818" t2="196.859" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="107" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="418.515" t1="97.3818" t2="196.859" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="107" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="790.119" t1="97.3818" t2="196.859" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="108" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="790.119" t1="97.3818" t2="196.859" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="108" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
         </Group>
         <Group t0="604.317" t1="97.3818" t2="384.266" s0="499.872" s1="199.8" s2="125.062" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="109" version="1">
             <parameters />
-            <EnvObject t0="597.91" t1="97.3818" t2="384.266" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="110" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="597.91" t1="97.3818" t2="384.266" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="110" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="418.515" t1="97.3818" t2="384.266" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="111" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="418.515" t1="97.3818" t2="384.266" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="111" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="790.119" t1="97.3818" t2="384.266" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="112" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="790.119" t1="97.3818" t2="384.266" s0="12.8139" s1="19.9601" s2="12.4938" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="112" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
         </Group>
     </Group>
-    <Group t0="218.858" t1="138.604" t2="-148.971" s0="200" s1="38.1845" s2="200" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="113" version="1">
+    <Group t0="218.858" t1="138.602" t2="-148.971" s0="199.918" s1="38.132" s2="199.92" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="113" version="1">
         <parameters />
-        <Group t0="218.858" t1="138.604" t2="-223.934" s0="199.949" s1="38.1464" s2="50.025" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="114" version="1">
+        <Group t0="218.858" t1="138.604" t2="-223.934" s0="199.908" s1="38.1183" s2="49.985" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="114" version="1">
             <parameters />
-            <EnvObject t0="216.295" t1="138.604" t2="-223.934" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="115" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="216.295" t1="138.604" t2="-223.934" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="115" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="144.537" t1="138.604" t2="-223.934" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="116" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="144.537" t1="138.604" t2="-223.934" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="116" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="293.179" t1="138.604" t2="-223.934" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="117" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="293.179" t1="138.604" t2="-223.934" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="117" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
         </Group>
-        <Group t0="218.858" t1="138.604" t2="-148.971" s0="199.949" s1="38.1464" s2="50.025" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="118" version="1">
+        <Group t0="218.858" t1="138.602" t2="-148.969" s0="199.908" s1="38.122" s2="49.99" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="118" version="1">
             <parameters />
-            <EnvObject t0="216.295" t1="138.604" t2="-148.971" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="119" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="216.295" t1="138.6" t2="-148.966" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="119" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="144.537" t1="138.604" t2="-148.971" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="120" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="144.537" t1="138.604" t2="-148.971" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="120" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="293.179" t1="138.604" t2="-148.971" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="121" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="293.179" t1="138.604" t2="-148.971" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="121" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
         </Group>
-        <Group t0="218.858" t1="138.604" t2="-74.0088" s0="199.949" s1="38.1464" s2="50.025" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="122" version="1">
+        <Group t0="218.858" t1="138.604" t2="-74.0088" s0="199.908" s1="38.1183" s2="49.985" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="122" version="1">
             <parameters />
-            <EnvObject t0="216.295" t1="138.604" t2="-74.0088" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="123" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="216.295" t1="138.604" t2="-74.0088" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="123" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="144.537" t1="138.604" t2="-74.0088" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="124" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="144.537" t1="138.604" t2="-74.0088" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="124" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
-            <EnvObject t0="293.179" t1="138.604" t2="-74.0088" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="125" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+            <EnvObject t0="293.179" t1="138.604" t2="-74.0088" s0="5.12558" s1="3.81083" s2="4.9975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="125" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml" no_navmesh="true">
                 <parameters />
             </EnvObject>
         </Group>
@@ -760,43 +760,43 @@
             <parameters />
         </EnvObject>
     </ActorObject>
-    <EnvObject t0="-111.536" t1="47.3865" t2="-308.478" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="159" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+    <EnvObject t0="-111.536" t1="47.3865" t2="-308.478" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="159" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-286.874" t1="47.3865" t2="-394.966" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="160" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+    <EnvObject t0="-286.874" t1="47.3865" t2="-394.966" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="160" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="130.372" t1="47.3865" t2="-394.966" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="161" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+    <EnvObject t0="130.372" t1="47.3865" t2="-394.966" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="161" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-32.4463" t1="47.3865" t2="-443.717" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="165" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+    <EnvObject t0="-32.4463" t1="47.3865" t2="-443.717" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="165" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-240.228" t1="47.3865" t2="-579.285" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="166" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+    <EnvObject t0="-240.228" t1="47.3865" t2="-579.285" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="166" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="347.021" t1="47.3865" t2="-478.156" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="167" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+    <EnvObject t0="347.021" t1="47.3865" t2="-478.156" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="167" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="137.968" t1="47.3865" t2="-659.932" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="168" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
+    <EnvObject t0="137.968" t1="47.3865" t2="-659.932" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="168" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="67.7622" t1="22.7753" t2="186.845" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="169" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="118.469" t1="22.3618" t2="157.924" s0="10" s1="10" s2="10" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="-1.57045" euler_z="0" id="170" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml">
+    <EnvObject t0="118.469" t1="22.3618" t2="157.924" s0="10" s1="10" s2="10" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="170" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="124.352" t1="41.9309" t2="280.618" s0="15" s1="15" s2="15" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="171" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building3_Small.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-14.2433" t1="26.2276" t2="244.053" s0="10" s1="10" s2="15.3298" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="172" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building4.xml">
+    <EnvObject t0="-14.2433" t1="26.2276" t2="244.053" s0="10" s1="10" s2="15.3298" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="172" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building4.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="41.5983" t1="31.6952" t2="282.656" s0="16.548" s1="14.8837" s2="13.0593" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="173" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="-11.7274" t1="1.00012" t2="37.8223" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="-0.231477" euler_y="-1.57045" euler_z="0.231477" id="180" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+    <ActorObject t0="-11.7274" t1="1.00012" t2="37.8223" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="180" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -852,6 +852,12 @@
             <parameters />
         </EnvObject>
     </ActorObject>
+    <EnvObject t0="-543.379" t1="49.506" t2="-331.743" s0="20" s1="20" s2="20" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="193" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/tri.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-778.474" t1="49.5059" t2="-45.0951" s0="20" s1="20" s2="20" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="194" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/tri.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
@@ -1065,4 +1071,5 @@
     <SpawnerItem display_name="Building4" path="Data/Objects/quaternius/Buildings_Pack/Building4.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building4_N.png" />
     <SpawnerItem display_name="Building3 Small" path="Data/Objects/quaternius/Buildings_Pack/Building3_Small.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building3_Small_N.png" />
     <SpawnerItem display_name="Building2 Large" path="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building2_Large_N.png" />
+    <SpawnerItem display_name="Tri" path="Data/Custom/twowolves/jims_playground/Objects/tri.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/tri.png" />
 </RecentItems>

@@ -1,0 +1,6 @@
+<?xml version="2.0" ?>
+<Music version="1">
+    <Song name="endurance" type="single" file_path="Data/Music/stronghold2/sb_sanctuary.ogg" />
+    <Song name="fate" type="single" file_path="Data/Music/stronghold2/Juggernaut.ogg" />
+    <Song name="jubilee" type="single" file_path="Data/Music/stronghold2/Legionnaire2022.ogg" />
+</Music>

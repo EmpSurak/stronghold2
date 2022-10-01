@@ -218,6 +218,8 @@ void Init(string level_name){
                 string unit_type = params.GetString(_unit_type_key);
                 if(unit_type == "Bomber"){
                     AddBomberJob(char.GetID());
+                    char.Execute("no_fire_damage = true;");
+                    char.Execute("SetOnFire(true);");
                 }else if(unit_type == "Flag Bearer"){
                     AddFlagBearerJob(char.GetID());
                 }

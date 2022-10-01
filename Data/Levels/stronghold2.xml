@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="12.7203" t1="81.2793" t2="128.842" s0="1" s1="1" s2="1" q0="-0.121047" q1="-0.533498" q2="0.0774783" q3="-0.833502" euler_x="0.288437" euler_y="1.13872" euler_z="0" id="1">
+    <CameraObject t0="45.1503" t1="122.576" t2="24.0667" s0="1" s1="1" s2="1" q0="0.137084" q1="-0.827318" q2="0.229574" q3="0.494012" euler_x="-2.60023" euler_y="-1.0766" euler_z="-3.14159" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-150" t1="148.813" t2="1.90735e-006" s0="10" s1="10" s2="10" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
@@ -547,10 +547,10 @@
         </Connections>
         <ItemConnections />
         <Palette>
-            <Color label="Fur" channel="0" red="0.411765" green="0.286275" blue="0.211765" />
-            <Color label="Leather" channel="1" red="1" green="1" blue="1" />
-            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
-            <Color label="Pants" channel="3" red="1" green="1" blue="1" />
+            <Color label="Fur" channel="0" red="0.67451" green="0.486275" blue="0.243137" />
+            <Color label="Back" channel="1" red="0.207843" green="0.109804" blue="0.0392157" />
+            <Color label="Neck" channel="2" red="0.537255" green="0.537255" blue="0.537255" />
+            <Color label="Legs" channel="3" red="0.67451" green="0.486275" blue="0.243137" />
         </Palette>
     </ActorObject>
     <ActorObject t0="-67.2179" t1="1" t2="173.538" s0="1" s1="1" s2="1" q0="0" q1="0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="1.0472" euler_z="3.14159" id="139" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
@@ -888,6 +888,12 @@
     <EnvObject t0="295.773" t1="33.7772" t2="297.034" s0="15" s1="15" s2="15" q0="0" q1="0.396298" q2="0" q3="0.918122" euler_x="0" euler_y="0.814962" euler_z="0" id="189" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-314.343" t1="23.523" t2="139.731" s0="10" s1="10" s2="10" q0="0.557669" q1="-0.434748" q2="0.434748" q3="0.557669" euler_x="1.5708" euler_y="-1.32434" euler_z="0" id="191" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-217.426" t1="23.523" t2="115.349" s0="10" s1="10" s2="10" q0="0.557669" q1="-0.434748" q2="0.434748" q3="0.557669" euler_x="1.5708" euler_y="-1.32434" euler_z="0" id="192" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="-543.379" t1="49.506" t2="-331.743" s0="20" s1="20" s2="20" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="193" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/tri.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
@@ -967,6 +973,12 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="-1236.62" t1="49.506" t2="-331.743" s0="20" s1="20" s2="20" q0="0.316398" q1="0" q2="0" q3="0.948627" euler_x="0.64386" euler_y="0" euler_z="0" id="219" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/tri.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-265.508" t1="34.6861" t2="355.1" s0="15" s1="15" s2="15" q0="0" q1="0.888296" q2="0" q3="0.459271" euler_x="3.14159" euler_y="0.95435" euler_z="3.14159" id="220" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-200.988" t1="56.1064" t2="459.954" s0="20" s1="20" s2="20" q0="0" q1="-0.981991" q2="0" q3="0.188926" euler_x="-3.14159" euler_y="-0.380137" euler_z="3.14159" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml">
         <parameters />
     </EnvObject>
 </ActorObjects>

@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="42.7023" t1="163.805" t2="56.9501" s0="1" s1="1" s2="1" q0="-0.271166" q1="0.436368" q2="-0.13979" q3="-0.84647" euler_x="0.620039" euler_y="-0.951965" euler_z="0" id="1">
+    <CameraObject t0="-49.1842" t1="107.512" t2="64.2182" s0="1" s1="1" s2="1" q0="0.245736" q1="0.0704598" q2="-0.0179127" q3="0.966607" euler_x="0.497902" euler_y="0.145531" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-150" t1="148.813" t2="1.90735e-006" s0="10" s1="10" s2="10" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
@@ -858,6 +858,75 @@
     <EnvObject t0="-778.474" t1="49.5059" t2="-45.0951" s0="20" s1="20" s2="20" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="194" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/tri.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-43.4969" t1="23.5258" t2="-190.597" s0="10" s1="10" s2="10" q0="0.462739" q1="0.534671" q2="-0.534671" q3="0.462739" euler_x="-1.5708" euler_y="1.42682" euler_z="3.14159" id="195" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="21.2855" t1="14.4434" t2="-201.258" s0="10" s1="10" s2="11.1011" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="196" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-142.464" t1="23.5258" t2="-176.247" s0="10" s1="10" s2="10" q0="0.462739" q1="0.534671" q2="-0.534671" q3="0.462739" euler_x="-1.5708" euler_y="1.42682" euler_z="3.14159" id="197" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-128.83" t1="10.4546" t2="-183.957" s0="10" s1="10" s2="10" q0="0" q1="0.362784" q2="0" q3="0.931873" euler_x="0" euler_y="0.742506" euler_z="0" id="198" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Viking boat.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-81.163" t1="10.4546" t2="-192.047" s0="10" s1="10" s2="10" q0="0" q1="0.657535" q2="0" q3="0.753424" euler_x="0" euler_y="1.43508" euler_z="0" id="199" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Viking boat.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-119.351" t1="0.683823" t2="-198.984" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="200" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Easy_Animated_Enemy_Pack/Frog.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-119.594" t1="-0.170221" t2="-199.197" s0="8.85202" s1="0.34922" s2="8.85202" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="201" type_file="Data/Objects/Decals/fall_leaves.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="-72.1131" t1="0.100621" t2="-172.074" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="202" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-69.6523" t1="0.100621" t2="-173.03" s0="10" s1="10" s2="10" q0="-0.220526" q1="-0.327696" q2="0.24701" q3="0.884856" euler_x="-0.676318" euler_y="-0.490405" euler_z="0.719993" id="203" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-68.5657" t1="-0.157775" t2="-169.134" s0="10" s1="10" s2="10" q0="0.0429779" q1="0.0333801" q2="0.0245573" q3="0.998216" euler_x="0.0877371" euler_y="0.0645752" euler_z="0.0520281" id="204" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-171.232" t1="0" t2="-162.103" s0="10" s1="10" s2="10" q0="0.0429779" q1="0.0333801" q2="0.0245573" q3="0.998216" euler_x="0.0877371" euler_y="0.0645752" euler_z="0.0520281" id="205" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-127.721" t1="0.0995766" t2="-154.129" s0="10" s1="10" s2="10" q0="0.0823815" q1="0.00808378" q2="0.137744" q3="0.987003" euler_x="0.165608" euler_y="-0.00673774" euler_z="0.276765" id="206" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-47.729" t1="0.610309" t2="-161.545" s0="10" s1="10" s2="10" q0="0" q1="-0.808225" q2="0" q3="0.588874" euler_x="-3.14159" euler_y="-1.25933" euler_z="3.14159" id="207" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-94.1126" t1="0.161711" t2="-166.235" s0="10" s1="10" s2="10" q0="-0.808225" q1="0" q2="0.588874" q3="0" euler_x="3.14159" euler_y="1.25933" euler_z="0" id="208" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-106.771" t1="0.151474" t2="-187.541" s0="2" s1="2" s2="2" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="209" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Textured_Fantasy_Nature/Flower3.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-111.683" t1="0.0808887" t2="-208.519" s0="2" s1="2" s2="2" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="210" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Textured_Fantasy_Nature/Flower3.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-82.5608" t1="0.0808878" t2="-216.02" s0="2" s1="2" s2="2" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="211" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Textured_Fantasy_Nature/Flower3.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-100.011" t1="0.913553" t2="-164.634" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="212" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Rock2.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-96.7799" t1="0.130211" t2="-167.762" s0="2.54063" s1="2.54063" s2="2.54063" q0="0.00483964" q1="0.838684" q2="0.0570669" q3="0.541565" euler_x="2.89833" euler_y="1.13813" euler_z="2.97398" id="213" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Rock2.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-176.717" t1="0.775647" t2="-192.191" s0="5" s1="5" s2="5" q0="0" q1="-0.394243" q2="0" q3="0.919006" euler_x="0" euler_y="-0.810487" euler_z="0" id="214" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Rock2.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-168.232" t1="2.74181" t2="-209.424" s0="10" s1="10" s2="10" q0="0" q1="-0.180563" q2="0" q3="0.983563" euler_x="0" euler_y="-0.363118" euler_z="0" id="215" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Rock1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-148.781" t1="5.05549" t2="-140.262" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="216" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Simple_Nature_Pack/Rock1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-137.212" t1="0" t2="-146.233" s0="10" s1="10" s2="10" q0="0" q1="-0.808225" q2="0" q3="0.588874" euler_x="-3.14159" euler_y="-1.25933" euler_z="3.14159" id="217" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
@@ -1072,4 +1141,14 @@
     <SpawnerItem display_name="Building3 Small" path="Data/Objects/quaternius/Buildings_Pack/Building3_Small.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building3_Small_N.png" />
     <SpawnerItem display_name="Building2 Large" path="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Buildings_Pack/Building2_Large_N.png" />
     <SpawnerItem display_name="Tri" path="Data/Custom/twowolves/jims_playground/Objects/tri.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/tri.png" />
+    <SpawnerItem display_name="Viking Boat" path="Data/Objects/quaternius/Ships/Viking boat.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ships/Viking boat_N.png" />
+    <SpawnerItem display_name="Frog" path="Data/Objects/quaternius/Easy_Animated_Enemy_Pack/Frog.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Easy_Animated_Enemy_Pack/Frog_N.png" />
+    <SpawnerItem display_name="Fall Leaves" path="Data/Objects/Decals/fall_leaves.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/fall_leaves.png" />
+    <SpawnerItem display_name="Barrel" path="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Medieval_Village_Pack/Barrel_N.png" />
+    <SpawnerItem display_name="Boat" path="Data/Objects/quaternius/Ships/Boat.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ships/Boat_N.png" />
+    <SpawnerItem display_name="Flower3" path="Data/Objects/quaternius/Textured_Fantasy_Nature/Flower3.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Textured_Fantasy_Nature/Flower3_N.png" />
+    <SpawnerItem display_name="Rock2" path="Data/Objects/quaternius/Modular_Dungeon_Pack/Rock2.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Modular_Dungeon_Pack/Rock2_N.png" />
+    <SpawnerItem display_name="Rock2" path="Data/Objects/quaternius/Platformer_Pack/Rock2.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Platformer_Pack/Rock2_N.png" />
+    <SpawnerItem display_name="Rock1" path="Data/Objects/quaternius/Platformer_Pack/Rock1.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Platformer_Pack/Rock1_N.png" />
+    <SpawnerItem display_name="Rock1" path="Data/Objects/quaternius/Simple_Nature_Pack/Rock1.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Simple_Nature_Pack/Rock1_N.png" />
 </RecentItems>

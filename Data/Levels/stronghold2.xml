@@ -49,10 +49,10 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-14.1165" t1="44.5286" t2="86.6045" s0="1" s1="1" s2="1" q0="0.0816168" q1="-0.916365" q2="0.307069" q3="0.243563" euler_x="-2.49492" euler_y="-0.519573" euler_z="3.14159" id="1">
+    <CameraObject t0="-128.115" t1="5.20777" t2="95.5755" s0="1" s1="1" s2="1" q0="0.152137" q1="-0.24109" q2="0.0382971" q3="0.957739" euler_x="0.315067" euler_y="-0.49321" euler_z="0" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="-0.834316" q1="-1.65701e-005" q2="-0.551681" q3="-1.65142e-005" euler_x="3.14148" euler_y="-1.16949" euler_z="0.000117227" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.113696" q1="0" q2="0.993771" q3="2.68742e-005" euler_x="5.30026e-006" euler_y="-0.227944" euler_z="3.14154" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
@@ -256,7 +256,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="0.507477" q1="8.28505e-006" q2="-0.861464" q3="-1.06958e-005" euler_x="-5.18219e-005" euler_y="1.06409" euler_z="3.14154" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="0.972173" q1="1.49608e-005" q2="-0.233368" q3="-2.09943e-006" euler_x="-3.14158" euler_y="0.470966" euler_z="3.37442e-005" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="52" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -315,7 +315,7 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
         </EnvObjectAttachments>
-        <EnvObject s0="0.130923" s1="0.130923" s2="0.130923" id="54" color_r="0" color_g="0.183557" color_b="0.6" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+        <EnvObject s0="0.130923" s1="0.130923" s2="0.130923" id="54" color_r="0" color_g="0.101994" color_b="0.333333" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -1270,6 +1270,9 @@
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="238" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
+    <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="239" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
     <ActorObject name="Rocket Man" t0="-282.534" t1="99" t2="39.9964" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="240" type_file="Data/Objects/stronghold2/characters/rabbot_bomber_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.75" />
@@ -2216,6 +2219,18 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
+    <Hotspot name="Enable Hidden Bomber" t0="92.36" t1="2.12398" t2="-18.0966" s0="3.05256" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="337" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="1" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Hidden Bomber&quot;,&quot;identifier_type&quot;:3},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/stronghold2/dialogue/hello.wav&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Hidden Bomber&quot;,&quot;identifier_type&quot;:3}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
     <ActorObject name="Player Giant 4" t0="-291.198" t1="1" t2="166.778" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="338" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
@@ -2305,6 +2320,63 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
+    <ActorObject name="Hidden Bomber" t0="102.537" t1="1" t2="-23.9114" s0="1" s1="1" s2="1" q0="0" q1="-0.457176" q2="0" q3="0.889377" euler_x="0" euler_y="-0.949635" euler_z="0" id="351" type_file="Data/Objects/stronghold2/characters/rabbot_bomber_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.75" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.1" />
+            <parameter name="Block Follow-up" type="float" val="0.3" />
+            <parameter name="Block Skill" type="float" val="0.3" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="2" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="2" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Unit Type" type="string" val="Bomber" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="351" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="-1" m1="7.93719e-005" m2="-3.47602e-006" m3="0" m4="7.93727e-005" m5="1" m6="-0.000208418" m7="0" m8="3.45947e-006" m9="-0.000208419" m10="-1" m11="0" m12="-0.000411987" m13="0.594991" m14="0.0145416" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.130923" s1="0.130923" s2="0.130923" id="352" color_r="0" color_g="0.101994" color_b="0.333333" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
     <ActorObject name="Sir Purrington" t0="-73.8655" t1="1" t2="185.792" s0="1" s1="1" s2="1" q0="0" q1="0.930344" q2="0" q3="0.36669" euler_x="3.14159" euler_y="0.750898" euler_z="3.14159" id="405" type_file="Data/Objects/characters/cats/fancy_striped_cat_actor.xml" is_player="1">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />

@@ -57,7 +57,6 @@ class EndScreen : AHGUI::GUI {
 
         AHGUI::Divider@ score_pane = main_pane.addDivider(DDTop, DOVertical, ivec2(AH_UNDEFINEDSIZE, 250));
         DisplayText(score_pane, DDTop, "Time of " + (win ? "Victory" : "Death") + ": " + GetTime(int(time)), _text_color, true);
-        DisplayText(score_pane, DDTop, "Casualties of War: " + casualties, _text_color, true);
 
         if(current_state == agsEndScreen){
             AHGUI::Divider@ footer = main_pane.addDivider(DDBottom, DOHorizontal, ivec2(AH_UNDEFINEDSIZE, 300));
@@ -114,11 +113,10 @@ class EndScreen : AHGUI::GUI {
         single_sentence.showBorder(false);
     }
 
-    void ShowMessage(string _message, bool _win, float _time, int _casualties){
+    void ShowMessage(string _message, bool _win, float _time){
         time = _time;
         message = _message;
         win = _win;
-        casualties = _casualties;
         current_state = agsMsgScreen;
     }
 

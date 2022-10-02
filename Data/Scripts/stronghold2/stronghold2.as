@@ -25,11 +25,9 @@ MusicLoad ml("Data/Music/stronghold2/stronghold2.xml");
 
 float current_time = 0.0f;
 int player_id = -1;
-int casualties = 0;
 
 void Init(string level_name){
     current_time = 0.0f;
-    casualties = 0;
     SetTriumphant(false);
 
     timer.Add(VictoryJob(function(){
@@ -206,6 +204,9 @@ void Init(string level_name){
         int num = GetNumCharacters();
         for(int i = 0; i < num; ++i){
             MovementObject@ char = ReadCharacter(i);
+            if(char.GetIntVar("state") != _awake){
+                continue;
+            }            
             Object@ char_obj = ReadObjectFromID(char.GetID());
             ScriptParams@ params = char_obj.GetScriptParams();
             if(params.HasParam(_unit_type_key)){
@@ -243,68 +244,33 @@ void ReceiveMessage(string msg){
     // The level messages are causing me problems, so I have decided to not use jobs for it.
     TokenIterator token_iter;
     token_iter.Init();
+    
+    if(msg == "drika_load_checkpoint"){
+        EndLevel("foo", true);
+    }
 
     if(!token_iter.FindNextToken(msg)){
         return;
     }
-
+    
     string token = token_iter.GetToken(msg);
 
     if(token == "reset"){
         hud_gui.SetHide(false);
         end_screen.Reset();
-
-        uint num_chars = GetNumCharacters();
-        for(uint i = 0; i < num_chars; ++i){
-            MovementObject@ char = ReadCharacter(i);
-            Object@ char_obj = ReadObjectFromID(char.GetID());
-            if(char_obj.IsExcludedFromSave()){
-                QueueDeleteObjectID(char.GetID());
-            }
-        }
-
-        uint num_items = GetNumItems();
-        for(uint i = 0; i < num_items; ++i){
-            ItemObject@ item = ReadItem(i);
-            Object@ item_obj = ReadObjectFromID(item.GetID());
-            if(item_obj.IsExcludedFromSave()){
-                QueueDeleteObjectID(item.GetID());
-            }
-        }
-
-        uint num_hotspots = GetNumHotspots();
-        for(uint i = 0; i < num_hotspots; ++i){
-            Hotspot@ hot = ReadHotspot(i);
-            Object@ hot_obj = ReadObjectFromID(hot.GetID());
-            if(hot_obj.IsExcludedFromSave()){
-                QueueDeleteObjectID(hot.GetID());
-            }
-        }
-
-        array<int> dynamic_lights = GetObjectIDsType(_dynamic_light_object);
-        for(uint i = 0; i < dynamic_lights.length(); i++){
-            Object@ light_obj = ReadObjectFromID(dynamic_lights[i]);
-            ScriptParams@ _light_params = light_obj.GetScriptParams();
-            if(light_obj.IsExcludedFromSave() && _light_params.HasParam(_magic_key)){
-                QueueDeleteObjectID(dynamic_lights[i]);
-            }
-        }
-
-        array<int> envs = GetObjectIDsType(_env_object);
-        for(uint i = 0; i < envs.length(); i++){
-            Object@ env_obj = ReadObjectFromID(envs[i]);
-            if(env_obj.IsExcludedFromSave()){
-                QueueDeleteObjectID(envs[i]);
-            }
-        }
-
         timer.DeleteAll();
-    }else if(token == "post_reset"){
+    }else if(token == "post_reset" || token == "drika_checkpoint_loaded"){
         timer.DeleteAll();
         Init("");
-    }else if(token == "stronghold_death"){
-        casualties++;
     }
+}
+
+void PreScriptReload(){
+    timer.DeleteAll();
+}
+
+void PostScriptReload(){
+    Init("");
 }
 
 void RegisterCleanupJobs(){
@@ -352,7 +318,7 @@ void RegisterMusicJobs(){
 
 void EndLevel(string message, bool win, float delay = 1.5f){
     hud_gui.SetHide(true);
-    end_screen.ShowMessage(message, win, current_time, casualties);
+    end_screen.ShowMessage(message, win, current_time);
 
     timer.Add(DelayedJob(delay, function(){
         end_screen.ShowControls();    

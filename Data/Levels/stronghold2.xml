@@ -49,10 +49,10 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="0.933897" t1="17.2781" t2="88.3877" s0="1" s1="1" s2="1" q0="-0.0465184" q1="0.94774" q2="-0.163175" q3="-0.270185" euler_x="-2.80059" euler_y="-0.555432" euler_z="-3.14159" id="1">
+    <CameraObject t0="-21.0996" t1="38.0812" t2="76.8267" s0="1" s1="1" s2="1" q0="-0.0102954" q1="-0.946336" q2="0.321598" q3="-0.0302952" euler_x="-2.48641" euler_y="0.0640045" euler_z="-3.14159" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="-0.688127" q1="-3.09944e-006" q2="0.72569" q3="1.91852e-006" euler_x="-0.000134789" euler_y="1.52046" euler_z="3.14146" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.58752" q1="3.93391e-006" q2="-0.809304" q3="-2.5779e-006" euler_x="-3.03467e-005" euler_y="1.25634" euler_z="3.14156" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
@@ -256,7 +256,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="0.250399" q1="3.63588e-006" q2="-0.968074" q3="0" euler_x="-8.41103e-006" euler_y="0.506145" euler_z="3.14159" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.224971" q1="-3.93391e-006" q2="0.974293" q3="0" euler_x="-8.30649e-006" euler_y="0.45379" euler_z="3.14159" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="52" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -1310,6 +1310,9 @@
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="243" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
+    <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="244" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="-151.764" t1="27.6748" t2="99.3696" s0="5" s1="5" s2="5" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="245" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/TowerWindmill.xml">
         <parameters />
     </EnvObject>
@@ -2151,9 +2154,9 @@
         <ItemConnections />
         <Palette>
             <Color label="Fur" channel="0" red="0.537255" green="0.537255" blue="0.537255" />
-            <Color label="Back" channel="1" red="0.537255" green="0.537255" blue="0.537255" />
-            <Color label="Neck" channel="2" red="1" green="1" blue="1" />
-            <Color label="Legs" channel="3" red="0.537255" green="0.537255" blue="0.537255" />
+            <Color label="Leather" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Pants" channel="3" red="1" green="1" blue="1" />
         </Palette>
         <EnvObjectAttachments>
             <EnvObjectAttachment>

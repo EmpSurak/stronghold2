@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-49.3832" t1="41.3579" t2="46.1181" s0="1" s1="1" s2="1" q0="0.00808313" q1="-0.982238" q2="0.182341" q3="0.0435426" euler_x="-2.7745" euler_y="-0.088602" euler_z="3.14159" id="1">
+    <CameraObject t0="-194.492" t1="8.38924" t2="105.123" s0="1" s1="1" s2="1" q0="-0.151824" q1="0.328978" q2="-0.0536771" q3="-0.930506" euler_x="0.323476" euler_y="-0.679662" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
@@ -1244,6 +1244,15 @@
     <EnvObject t0="-204.668" t1="7.51497" t2="84.073" s0="3.28904" s1="3.28904" s2="3.28904" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="262" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/OpenBarn.xml">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-207.231" t1="2.89547" t2="85.001" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="268" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Cow.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-202.006" t1="2.49725" t2="85.001" s0="0.849684" s1="0.849684" s2="0.849684" q0="0" q1="-0.423579" q2="0" q3="0.905859" euler_x="0" euler_y="-0.874785" euler_z="0" id="269" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Cow.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-205.165" t1="0.402515" t2="84.0108" s0="14.0348" s1="0.502699" s2="14.5521" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="271" type_file="Data/Objects/Decals/TanMud.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
@@ -1427,7 +1436,6 @@
     <SpawnerItem display_name="Magma Flow Fall" path="Data/Prototypes/MagmaArena/MagmaFlow_Fall.xml" thumbnail_path="" />
     <SpawnerItem display_name="Magma Flow Fall 3" path="Data/Prototypes/MagmaArena/MagmaFlow_Fall3.xml" thumbnail_path="" />
     <SpawnerItem display_name="Magma Flow Fall 2" path="Data/Prototypes/MagmaArena/MagmaFlow_Fall2.xml" thumbnail_path="" />
-    <SpawnerItem display_name="Cow" path="Data/Objects/quaternius/Farm_Animals/Cow.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Animals/Cow_N.png" />
     <SpawnerItem display_name="Broad Shoulder Dog" path="Data/Objects/characters/dogs/light_armored_dog_male_1_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/light_armored_dog_male_1_actor.png" />
     <SpawnerItem display_name="Halfpipe" path="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/halfpipe.png" />
     <SpawnerItem display_name="Dark Stony Dirt" path="Data/Objects/Decals/DarkStonyDirt.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/DarkStonyDirt.png" />
@@ -1482,4 +1490,6 @@
     <SpawnerItem display_name="Openbarn" path="Data/Objects/quaternius/Farm_Buildings/OpenBarn.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/OpenBarn_N.png" />
     <SpawnerItem display_name="Hanging Lamp 1" path="Data/Prototypes/CaveArena/HangingLamp_1.xml" thumbnail_path="" />
     <SpawnerItem display_name="Barrel" path="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Modular_Dungeon_Pack/Barrel_N.png" />
+    <SpawnerItem display_name="Cow" path="Data/Objects/quaternius/Farm_Animals/Cow.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Animals/Cow_N.png" />
+    <SpawnerItem display_name="Tan Mud" path="Data/Objects/Decals/TanMud.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/Tanmud.png" />
 </RecentItems>

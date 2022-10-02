@@ -49,10 +49,10 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-208.102" t1="120.976" t2="1.87531" s0="1" s1="1" s2="1" q0="0.206787" q1="0.647844" q2="-0.189122" q3="0.708358" euler_x="0.568063" euler_y="1.48162" euler_z="-2.67699e-006" id="1">
+    <CameraObject t0="-77.8249" t1="26.2196" t2="176.166" s0="1" s1="1" s2="1" q0="-0.295276" q1="-0.684506" q2="0.360536" q3="-0.560605" euler_x="-2.17202" euler_y="1.37243" euler_z="-3.14159" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="-0.59519" q1="-5.24521e-006" q2="-0.803704" q3="-1.21631e-005" euler_x="7.85937e-005" euler_y="-1.27549" euler_z="3.1415" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="-0.917216" q1="0" q2="-0.398426" q3="0" euler_x="3.14159" euler_y="-0.819618" euler_z="1.07937e-006" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
@@ -256,7 +256,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="0.950958" q1="1.37091e-006" q2="0.30902" q3="6.79633e-006" euler_x="3.14158" euler_y="-0.628251" euler_z="8.41489e-006" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.913553" q1="-1.78814e-006" q2="0.406694" q3="0" euler_x="-3.14159" euler_y="0.837652" euler_z="5.55001e-006" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <ActorObject t0="-140.274" t1="1" t2="99.2996" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="53" type_file="Data/Objects/stronghold2/characters/rabbot_bomber_actor.xml" is_player="0">
@@ -1173,6 +1173,113 @@
     <ItemObject t0="-232.293" t1="0.0999998" t2="144.483" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="235" type_file="Data/Items/DogWeapons/DogSpear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
+    <ActorObject name="Sir Purrington" t0="-71.4788" t1="1" t2="184.259" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="236" type_file="Data/Objects/characters/cats/fancy_striped_cat_actor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.06554" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="0" />
+            <parameter name="Focus FOV horizontal" type="float" val="0" />
+            <parameter name="Focus FOV vertical" type="float" val="0" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="2" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.88305" />
+            <parameter name="Muscle" type="float" val="0.57062" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="cat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player" />
+            <parameter name="Throw Counter Probability" type="float" val="0.31638" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="0.35028" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="236" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="0.133333" green="0.133333" blue="0.133333" />
+            <Color label="Leather" channel="1" red="0.485098" green="0.752157" blue="0.715686" />
+            <Color label="Shirt" channel="2" red="0.643922" green="0.542745" blue="0.413333" />
+            <Color label="Pants" channel="3" red="0.67817" green="0.780523" blue="0.756993" />
+        </Palette>
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="1" num_connections="1" m0="0.154117" m1="-0.984699" m2="-0.0811363" m3="0" m4="0.847724" m5="0.08961" m6="0.522787" m7="0" m8="-0.50754" m9="-0.149367" m10="0.848574" m11="0" m12="0.0928345" m13="0.170909" m14="0.133423" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.186907" s1="0.186903" s2="0.295176" id="241" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Key.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
+    <ActorObject name="Rocket Man" t0="-282.534" t1="99" t2="39.9964" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="240" type_file="Data/Objects/stronghold2/characters/rabbot_bomber_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.75" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.1" />
+            <parameter name="Block Follow-up" type="float" val="0.3" />
+            <parameter name="Block Skill" type="float" val="0.3" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.5" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="2" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="2" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Unit Type" type="string" val="Bomber" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="240" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
     <EnvObject t0="-151.764" t1="27.6748" t2="99.3696" s0="5" s1="5" s2="5" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="245" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/TowerWindmill.xml">
         <parameters />
     </EnvObject>
@@ -1374,7 +1481,7 @@
     <Decal t0="-205.165" t1="0.402515" t2="84.0108" s0="14.0348" s1="0.502699" s2="14.5521" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="271" type_file="Data/Objects/Decals/TanMud.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
-    <EnvObject t0="-295.381" t1="-15.0097" t2="-117.955" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="272" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
+    <EnvObject t0="-295.381" t1="-15.0096" t2="-117.955" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="272" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-449.818" t1="108.38" t2="-66.6725" s0="10" s1="10" s2="10" q0="0" q1="-0.958292" q2="0" q3="0.285792" euler_x="3.14159" euler_y="-0.579666" euler_z="3.14159" id="273" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Gun_4.xml">
@@ -1948,72 +2055,11 @@
     <EnvObject name="Bomb Key" t0="177.266" t1="2.49101" t2="286.337" s0="2" s1="2" s2="5" q0="0.664793" q1="0.279712" q2="-0.268637" q3="0.638471" euler_x="1.62853" euler_y="0.795698" euler_z="0.0412633" id="323" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Key.xml">
         <parameters />
     </EnvObject>
-    <ActorObject name="Sir Purrington" t0="-73.9044" t1="1" t2="188.356" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="339" type_file="Data/Objects/characters/cats/fancy_striped_cat_actor.xml" is_player="1">
-        <parameters>
-            <parameter name="Aggression" type="float" val="0.5" />
-            <parameter name="Attack Damage" type="float" val="1" />
-            <parameter name="Attack Knockback" type="float" val="1" />
-            <parameter name="Attack Speed" type="float" val="1" />
-            <parameter name="Block Follow-up" type="float" val="0.5" />
-            <parameter name="Block Skill" type="float" val="0.5" />
-            <parameter name="Cannot Be Disarmed" type="int" val="0" />
-            <parameter name="Character Scale" type="float" val="1.06554" />
-            <parameter name="Damage Resistance" type="float" val="1" />
-            <parameter name="Ear Size" type="float" val="1" />
-            <parameter name="Fall Damage Multiplier" type="float" val="1" />
-            <parameter name="Fat" type="float" val="0.5" />
-            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
-            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
-            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
-            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
-            <parameter name="Focus FOV distance" type="float" val="0" />
-            <parameter name="Focus FOV horizontal" type="float" val="0" />
-            <parameter name="Focus FOV vertical" type="float" val="0" />
-            <parameter name="Ground Aggression" type="float" val="0.5" />
-            <parameter name="Knockout Shield" type="int" val="2" />
-            <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="0.88305" />
-            <parameter name="Muscle" type="float" val="0.57062" />
-            <parameter name="No Look Around" type="int" val="0" />
-            <parameter name="Peripheral FOV distance" type="float" val="4" />
-            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
-            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
-            <parameter name="Species" type="string" val="cat" />
-            <parameter name="Static" type="int" val="0" />
-            <parameter name="Stick To Nav Mesh" type="int" val="0" />
-            <parameter name="Teams" type="string" val="player" />
-            <parameter name="Throw Counter Probability" type="float" val="0.31638" />
-            <parameter name="Throw Trainer" type="int" val="0" />
-            <parameter name="Weapon Catch Skill" type="float" val="0.35028" />
-            <parameter name="Wearing Metal Armor" type="int" val="0" />
-        </parameters>
-        <Connections>
-            <Connection id="339" />
-        </Connections>
-        <ItemConnections />
-        <Palette>
-            <Color label="Fur" channel="0" red="0.133333" green="0.133333" blue="0.133333" />
-            <Color label="Leather" channel="1" red="0.485098" green="0.752157" blue="0.715686" />
-            <Color label="Shirt" channel="2" red="0.643922" green="0.542745" blue="0.413333" />
-            <Color label="Pants" channel="3" red="0.67817" green="0.780523" blue="0.756993" />
-        </Palette>
-        <EnvObjectAttachments>
-            <EnvObjectAttachment>
-                <BoneConnect bone_id="1" num_connections="1" m0="0.154117" m1="-0.984699" m2="-0.0811363" m3="0" m4="0.847724" m5="0.08961" m6="0.522787" m7="0" m8="-0.50754" m9="-0.149367" m10="0.848574" m11="0" m12="0.0928345" m13="0.170909" m14="0.133423" m15="1" />
-                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
-                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
-                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
-            </EnvObjectAttachment>
-        </EnvObjectAttachments>
-        <EnvObject s0="0.186907" s1="0.186903" s2="0.295176" id="340" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Key.xml">
-            <parameters />
-        </EnvObject>
-    </ActorObject>
     <Hotspot name="Bomb Activator" t0="-296.739" t1="15.9561" t2="-118.068" s0="4.81199" s1="4.81199" s2="4.81199" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="344" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 2&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 3&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Lava&quot;,&quot;identifier_type&quot;:3},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:9,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;false&quot;]},{&quot;display_message&quot;:&quot;You need to pick up the key first&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:15},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/explosives/explosion1.wav&quot;,&quot;sound_type&quot;:0},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;rotate_pyramid&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Lava&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 2&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 3&quot;,&quot;identifier_type&quot;:3},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:1,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;display_message&quot;:&quot;&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:10,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:5}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 2&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 3&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Lava&quot;,&quot;identifier_type&quot;:3},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:10,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;false&quot;]},{&quot;display_message&quot;:&quot;You need to pick up the key first&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:19},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_type&quot;:3},{&quot;add_velocity&quot;:true,&quot;function&quot;:24,&quot;height_offset&quot;:0,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_towards_target&quot;:&quot;Upper Pyram Exhaust&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_towards_target&quot;:3,&quot;set_velocity_mode&quot;:1,&quot;velocity_magnitude&quot;:250},{&quot;duration&quot;:5000,&quot;function&quot;:2},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/explosives/explosion1.wav&quot;,&quot;sound_type&quot;:0},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;rotate_pyramid&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Lava&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 2&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 3&quot;,&quot;identifier_type&quot;:3},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:1,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;display_message&quot;:&quot;&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:10,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:6}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />

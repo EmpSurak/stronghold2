@@ -49,9 +49,15 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="143.389" t1="32.4541" t2="114.995" s0="1" s1="1" s2="1" q0="0.000712633" q1="0.988876" q2="-0.00474012" q3="0.148668" euler_x="-3.13201" euler_y="0.298447" euler_z="-3.14159" id="1">
+    <CameraObject t0="60.0056" t1="183.143" t2="190.38" s0="1" s1="1" s2="1" q0="0.24445" q1="-0.127352" q2="0.0324041" q3="0.960716" euler_x="0.498318" euler_y="-0.263582" euler_z="0" id="1">
         <parameters />
     </CameraObject>
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="-0.981701" q1="0" q2="-0.190463" q3="0" euler_x="3.14159" euler_y="-0.38327" euler_z="0" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
         <parameters />
     </EnvObject>
@@ -128,6 +134,9 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="-63.1125" t1="2.75496" t2="172.19" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="9" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Well.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-123.787" t1="24.9984" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml">
         <parameters />
     </EnvObject>
     <Group t0="0.5" t1="4.75" t2="30" s0="39.02" s1="10.02" s2="40.02" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="23" version="1">
@@ -247,6 +256,9 @@
             </EnvObject>
         </Group>
     </Group>
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.700868" q1="0" q2="-0.713266" q3="-2.30083e-006" euler_x="0.000212626" euler_y="-1.55136" euler_z="3.14138" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
     <ActorObject t0="-140.274" t1="1" t2="99.2996" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="53" type_file="Data/Objects/stronghold2/characters/rabbot_bomber_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.75" />
@@ -338,6 +350,9 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="-447.803" t1="47.9809" t2="-61.4851" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="67" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="Pyramid Lava" t0="-121.409" t1="106.073" t2="-9.05481" s0="10.2418" s1="25.8318" s2="6.45431" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="68" color_r="0" color_g="1" color_b="0.0238097" overbright="5" type_file="Data/Prototypes/MagmaArena/MagmaFlow_Fall2.xml">
         <parameters />
     </EnvObject>
     <Hotspot t0="-27.7914" t1="10.9549" t2="128.898" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="69" type_file="Data/Objects/Hotspots/emitter.xml">
@@ -1131,24 +1146,6 @@
     <EnvObject t0="-200.988" t1="56.1064" t2="459.954" s0="20" s1="20" s2="20" q0="0" q1="-0.981991" q2="0" q3="0.188926" euler_x="3.14159" euler_y="-0.380137" euler_z="3.14159" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml">
         <parameters />
     </EnvObject>
-    <Group t0="-123.786" t1="98.8702" t2="-6.41269" s0="100.017" s1="197.752" s2="100.013" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="222" version="1">
-        <parameters />
-        <EnvObject t0="-123.785" t1="148.813" t2="-6.4161" s0="10" s1="10" s2="10" q0="0.366826" q1="0" q2="0.930289" q3="0" euler_x="0" euler_y="-0.751189" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
-            <parameters />
-        </EnvObject>
-        <EnvObject t0="-123.788" t1="49.0272" t2="-6.40926" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
-            <parameters />
-        </EnvObject>
-        <EnvObject t0="-123.788" t1="24.9994" t2="-6.40926" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml">
-            <parameters />
-        </EnvObject>
-        <EnvObject t0="-123.785" t1="172.741" t2="-6.41611" s0="10" s1="10" s2="10" q0="-0.930289" q1="0" q2="0.366826" q3="0" euler_x="3.14159" euler_y="0.751189" euler_z="0" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
-            <parameters />
-        </EnvObject>
-        <EnvObject t0="-121.41" t1="106.074" t2="-9.05718" s0="10.2418" s1="25.8318" s2="6.45431" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="68" color_r="0" color_g="1" color_b="0.0238097" overbright="5" type_file="Data/Prototypes/MagmaArena/MagmaFlow_Fall2.xml">
-            <parameters />
-        </EnvObject>
-    </Group>
     <EnvObject t0="-186.152" t1="2.07304" t2="118.76" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="223" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
         <parameters />
     </EnvObject>
@@ -1200,6 +1197,18 @@
     <EnvObject t0="-277.583" t1="2.79714" t2="107.505" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="255" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
+    <Hotspot name="Pyramid Rotator" t0="-149.743" t1="215.222" t2="15.7952" s0="2.73667" s1="2.73667" s2="2.73667" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="256" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="1" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Lava&quot;,&quot;identifier_type&quot;:3},{&quot;function&quot;:16,&quot;identifier&quot;:&quot;Upper Pyramid&quot;,&quot;identifier_target_location&quot;:-1,&quot;identifier_type&quot;:3,&quot;identifier_type_target_location&quot;:0,&quot;s_bone_name&quot;:&quot;&quot;,&quot;s_copy_bone_position&quot;:false,&quot;s_copy_bone_rotation&quot;:false,&quot;s_flatten_rotation&quot;:false,&quot;s_rotate_relative&quot;:true,&quot;s_rotate_x&quot;:0,&quot;s_rotate_y&quot;:1,&quot;s_rotate_z&quot;:0,&quot;s_scale_x&quot;:10,&quot;s_scale_x_relative&quot;:false,&quot;s_scale_y&quot;:10,&quot;s_scale_y_relative&quot;:false,&quot;s_scale_z&quot;:10,&quot;s_scale_z_relative&quot;:false,&quot;s_transform_to_bone&quot;:false,&quot;s_transform_to_target_first&quot;:false,&quot;s_transform_x&quot;:-123.77799987792969,&quot;s_transform_x_relative&quot;:false,&quot;s_transform_y&quot;:172.74299621582031,&quot;s_transform_y_relative&quot;:false,&quot;s_transform_z&quot;:-6.4130001068115234,&quot;s_transform_z_relative&quot;:false,&quot;transform_mode&quot;:3,&quot;translation_offset&quot;:[0,0,0],&quot;use_target_location&quot;:false,&quot;use_target_rotation&quot;:true,&quot;use_target_scale&quot;:false},{&quot;function&quot;:16,&quot;identifier&quot;:&quot;Upper Pyram Exhaust&quot;,&quot;identifier_target_location&quot;:-1,&quot;identifier_type&quot;:3,&quot;identifier_type_target_location&quot;:0,&quot;s_bone_name&quot;:&quot;&quot;,&quot;s_copy_bone_position&quot;:false,&quot;s_copy_bone_rotation&quot;:false,&quot;s_flatten_rotation&quot;:false,&quot;s_rotate_relative&quot;:true,&quot;s_rotate_x&quot;:0,&quot;s_rotate_y&quot;:5,&quot;s_rotate_z&quot;:0,&quot;s_scale_x&quot;:10,&quot;s_scale_x_relative&quot;:false,&quot;s_scale_y&quot;:10,&quot;s_scale_y_relative&quot;:false,&quot;s_scale_z&quot;:10,&quot;s_scale_z_relative&quot;:false,&quot;s_transform_to_bone&quot;:false,&quot;s_transform_to_target_first&quot;:false,&quot;s_transform_x&quot;:-123.78399658203125,&quot;s_transform_x_relative&quot;:false,&quot;s_transform_y&quot;:148.81199645996094,&quot;s_transform_y_relative&quot;:false,&quot;s_transform_z&quot;:-6.4140000343322754,&quot;s_transform_z_relative&quot;:false,&quot;transform_mode&quot;:3,&quot;translation_offset&quot;:[0,0,0],&quot;use_target_location&quot;:true,&quot;use_target_rotation&quot;:false,&quot;use_target_scale&quot;:false},{&quot;duration&quot;:10,&quot;function&quot;:2},{&quot;function&quot;:7,&quot;line&quot;:1}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
     <EnvObject t0="-239.945" t1="0.630817" t2="91.687" s0="0.741393" s1="0.741393" s2="0.741393" q0="-0.631653" q1="-0.747052" q2="0.133776" q3="0.158216" euler_x="-2.72935" euler_y="-0.0674423" euler_z="1.7237" id="257" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Pig.xml">
         <parameters />
     </EnvObject>
@@ -2241,6 +2250,6 @@
     <SpawnerItem display_name="Key" path="Data/Objects/quaternius/Platformer_Pack/Key.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Platformer_Pack/Key_N.png" />
     <SpawnerItem display_name="Room" path="Data/Custom/twowolves/jims_playground/Objects/room.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/room.png" />
     <SpawnerItem display_name="Stairs" path="Data/Custom/twowolves/jims_playground/Objects/stairs.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/stairs.png" />
-    <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Blood Spatter" path="Data/Objects/Decals/bloodspatter.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/bloodspatter.png" />
+    <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
 </RecentItems>

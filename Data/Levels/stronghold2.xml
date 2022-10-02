@@ -49,13 +49,13 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-309.662" t1="39.1493" t2="-152.185" s0="1" s1="1" s2="1" q0="0.129669" q1="0.814467" q2="-0.199587" q3="0.529145" euler_x="-2.66096" euler_y="1.15231" euler_z="-3.14159" id="1">
+    <CameraObject t0="2.60252" t1="27.0202" t2="107.427" s0="1" s1="1" s2="1" q0="0.194082" q1="-0.494908" q2="0.114454" q3="0.839225" euler_x="0.454536" euler_y="-1.06565" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="-2.4163" t1="1" t2="37.3307" s0="1" s1="1" s2="1" q0="0" q1="0.992875" q2="0" q3="-0.119164" euler_x="-3.14159" euler_y="-0.238895" euler_z="3.14159" id="6" type_file="Data/Objects/stronghold2/characters/rabbot_flag_bearer_actor.xml" is_player="0">
+    <ActorObject t0="-2.4163" t1="1" t2="37.3307" s0="1" s1="1" s2="1" q0="0" q1="0.992875" q2="0" q3="-0.119164" euler_x="3.14159" euler_y="-0.238896" euler_z="3.14159" id="6" type_file="Data/Objects/stronghold2/characters/rabbot_flag_bearer_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -108,7 +108,7 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="30" num_connections="1" m0="0.393178" m1="-0.00140754" m2="0.919462" m3="0" m4="0.0069283" m5="0.999975" m6="-0.00143187" m7="0" m8="-0.919437" m9="0.00693328" m10="0.393177" m11="0" m12="-0.0115814" m13="0.581493" m14="-0.0538445" m15="1" />
+                <BoneConnect bone_id="30" num_connections="1" m0="0.393177" m1="-0.00140754" m2="0.919462" m3="0" m4="0.0069283" m5="0.999975" m6="-0.00143187" m7="0" m8="-0.919437" m9="0.00693328" m10="0.393177" m11="0" m12="0.0167398" m13="0.586265" m14="0.0296669" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
@@ -117,7 +117,7 @@
         <EnvObject s0="0.309201" s1="0.309201" s2="0.309201" id="51" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Flag.xml">
             <parameters />
         </EnvObject>
-        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="149" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+        <EnvObject s0="0.15303" s1="0.15303" s2="0.15303" id="149" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -294,13 +294,13 @@
         <Palette />
         <EnvObjectAttachments>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="31" num_connections="1" m0="-1" m1="7.93719e-005" m2="-3.47602e-006" m3="0" m4="7.93727e-005" m5="1" m6="-0.000208418" m7="0" m8="3.45947e-006" m9="-0.000208419" m10="-1" m11="0" m12="-0.00122499" m13="0.594974" m14="-0.0668793" m15="1" />
+                <BoneConnect bone_id="31" num_connections="1" m0="-1" m1="7.93719e-005" m2="-3.47602e-006" m3="0" m4="7.93727e-005" m5="1" m6="-0.000208418" m7="0" m8="3.45947e-006" m9="-0.000208419" m10="-1" m11="0" m12="-0.000411987" m13="0.594991" m14="0.0145416" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
         </EnvObjectAttachments>
-        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="54" color_r="0" color_g="0.183557" color_b="0.6" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+        <EnvObject s0="0.130923" s1="0.130923" s2="0.130923" id="54" color_r="0" color_g="0.183557" color_b="0.6" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -642,13 +642,13 @@
         <Palette />
         <EnvObjectAttachments>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="31" num_connections="1" m0="0.120485" m1="0.381356" m2="0.916543" m3="0" m4="-0.00981751" m5="0.923681" m6="-0.383036" m7="0" m8="-0.992667" m9="0.0371517" m10="0.115033" m11="0" m12="-0.00174522" m13="0.57478" m14="-0.0596161" m15="1" />
+                <BoneConnect bone_id="31" num_connections="1" m0="0.120485" m1="0.381356" m2="0.916543" m3="0" m4="-0.0098175" m5="0.923681" m6="-0.383036" m7="0" m8="-0.992667" m9="0.0371518" m10="0.115033" m11="0" m12="0.0111542" m13="0.604464" m14="0.0116043" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
         </EnvObjectAttachments>
-        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="260" color_r="0" color_g="0.118158" color_b="0.501961" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+        <EnvObject s0="0.135908" s1="0.135908" s2="0.135908" id="260" color_r="0" color_g="0.118158" color_b="0.501961" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -723,13 +723,13 @@
         <Palette />
         <EnvObjectAttachments>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="31" num_connections="1" m0="-1" m1="7.93719e-005" m2="-3.47602e-006" m3="0" m4="7.93727e-005" m5="1" m6="-0.000208418" m7="0" m8="3.45947e-006" m9="-0.000208419" m10="-1" m11="0" m12="-0.00122499" m13="0.594974" m14="-0.0668793" m15="1" />
+                <BoneConnect bone_id="31" num_connections="1" m0="-1" m1="7.93934e-005" m2="-3.42727e-006" m3="0" m4="7.93785e-005" m5="1" m6="-0.000208378" m7="0" m8="3.42727e-006" m9="-0.000208378" m10="-1" m11="0" m12="0.00728989" m13="0.578068" m14="0.0347214" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
         </EnvObjectAttachments>
-        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="175" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+        <EnvObject s0="0.143682" s1="0.143682" s2="0.143682" id="175" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -799,8 +799,17 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.287682" m1="-8.81822e-005" m2="-0.957726" m3="0" m4="-0.00072795" m5="1" m6="-0.00031074" m7="0" m8="0.957726" m9="0.000786576" m10="0.287682" m11="0" m12="0.000839233" m13="0.544796" m14="0.00863647" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
         </EnvObjectAttachments>
         <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="151" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.258881" s1="0.258881" s2="0.258881" id="320" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -850,13 +859,13 @@
         <Palette />
         <EnvObjectAttachments>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="31" num_connections="1" m0="0.726586" m1="-0.106338" m2="-0.678796" m3="0" m4="0.000953175" m5="0.988106" m6="-0.153774" m7="0" m8="0.687075" m9="0.111083" m10="0.718045" m11="0" m12="-0.0234718" m13="0.575304" m14="-0.0579948" m15="1" />
+                <BoneConnect bone_id="31" num_connections="1" m0="0.726438" m1="-0.10638" m2="-0.678949" m3="0" m4="0.000951681" m5="0.988101" m6="-0.1538" m7="0" m8="0.687231" m9="0.11108" m10="0.717895" m11="0" m12="0.0104828" m13="0.582739" m14="-0.010025" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
         </EnvObjectAttachments>
-        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="148" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+        <EnvObject s0="0.154958" s1="0.154958" s2="0.154958" id="148" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -919,8 +928,17 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.291753" m1="0.00212705" m2="-0.956491" m3="0" m4="-0.000678908" m5="0.999998" m6="0.00201672" m7="0" m8="0.956493" m9="6.09865e-005" m10="0.291754" m11="0" m12="-0.0113068" m13="0.517625" m14="0.0328979" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
         </EnvObjectAttachments>
         <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="231" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.258881" s1="0.258881" s2="0.258881" id="359" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -1033,13 +1051,13 @@
         <Palette />
         <EnvObjectAttachments>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="31" num_connections="1" m0="0.726586" m1="-0.106338" m2="-0.678796" m3="0" m4="0.000953175" m5="0.988106" m6="-0.153774" m7="0" m8="0.687075" m9="0.111083" m10="0.718045" m11="0" m12="-0.0234718" m13="0.575304" m14="-0.0579948" m15="1" />
+                <BoneConnect bone_id="31" num_connections="1" m0="0.726587" m1="-0.106338" m2="-0.678796" m3="0" m4="0.000952691" m5="0.988106" m6="-0.153774" m7="0" m8="0.687074" m9="0.111083" m10="0.718045" m11="0" m12="0.0142937" m13="0.587268" m14="0.0191298" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
         </EnvObjectAttachments>
-        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="181" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+        <EnvObject s0="0.166595" s1="0.166595" s2="0.166595" id="181" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -1199,7 +1217,7 @@
     <EnvObject t0="-214.72" t1="0" t2="130.542" s0="2" s1="2" s2="2" q0="0.284574" q1="0.514825" q2="-0.186165" q3="0.786966" euler_x="0.693959" euler_y="1.15863" euler_z="1.33911e-006" id="228" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Food_Pack/ChickenLeg.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-176.56" t1="13.2873" t2="113.253" s0="3.77013" s1="3.77013" s2="3.77013" q0="0" q1="0.735096" q2="0" q3="-0.677962" euler_x="3.14159" euler_y="-1.48996" euler_z="-3.14159" id="229" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/WaterTower.xml">
+    <EnvObject t0="-176.56" t1="13.2873" t2="113.253" s0="3.77013" s1="3.77013" s2="3.77013" q0="0" q1="0.735096" q2="0" q3="-0.677962" euler_x="3.14159" euler_y="-1.48996" euler_z="3.14159" id="229" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/WaterTower.xml">
         <parameters />
     </EnvObject>
     <Decal t0="-238.195" t1="-0.391359" t2="101.75" s0="44.6829" s1="1.40678" s2="33.3182" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="230" type_file="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" color_r="1" color_g="1" color_b="1" overbright="0">
@@ -1208,7 +1226,7 @@
     <ItemObject t0="-232.293" t1="0.0999998" t2="144.483" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="235" type_file="Data/Items/DogWeapons/DogSpear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
-    <EnvObject t0="-151.764" t1="27.6748" t2="99.3696" s0="5" s1="5" s2="5" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="245" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/TowerWindmill.xml">
+    <EnvObject t0="-151.764" t1="27.6748" t2="99.3696" s0="5" s1="5" s2="5" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="245" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/TowerWindmill.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-303.854" t1="13.9165" t2="159.109" s0="5" s1="5" s2="5" q0="0" q1="0.829876" q2="0" q3="0.557948" euler_x="3.14159" euler_y="1.18382" euler_z="3.14159" id="248" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Silo.xml">
@@ -1220,22 +1238,22 @@
     <EnvObject t0="-318.163" t1="13.9165" t2="164.94" s0="5" s1="5" s2="5" q0="0" q1="0.829876" q2="0" q3="0.557948" euler_x="3.14159" euler_y="1.18382" euler_z="3.14159" id="251" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Silo.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-274.803" t1="2.17834" t2="100.567" s0="5" s1="5" s2="5" q0="-0.224528" q1="-0.224528" q2="0.670513" q3="0.670513" euler_x="-0.646247" euler_y="0" euler_z="1.5708" id="252" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
+    <EnvObject t0="-274.803" t1="2.17834" t2="100.567" s0="5" s1="5" s2="5" q0="-0.224528" q1="-0.224528" q2="0.670513" q3="0.670513" euler_x="-0.646248" euler_y="0" euler_z="1.5708" id="252" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-269.501" t1="2.17834" t2="107.655" s0="5" s1="5" s2="5" q0="-0.483391" q1="-0.483391" q2="0.516075" q3="0.516075" euler_x="-1.50542" euler_y="0" euler_z="1.5708" id="253" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-282.139" t1="2.17834" t2="110.292" s0="5" s1="5" s2="5" q0="-0.108125" q1="-0.108125" q2="0.698791" q3="0.698791" euler_x="-0.307029" euler_y="0" euler_z="1.5708" id="254" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
+    <EnvObject t0="-282.139" t1="2.17834" t2="110.292" s0="5" s1="5" s2="5" q0="-0.108125" q1="-0.108125" q2="0.698791" q3="0.698791" euler_x="-0.307028" euler_y="0" euler_z="1.5708" id="254" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-277.583" t1="2.79714" t2="107.505" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="255" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-239.945" t1="0.630817" t2="91.687" s0="0.741393" s1="0.741393" s2="0.741393" q0="-0.631653" q1="-0.747052" q2="0.133776" q3="0.158216" euler_x="-2.72936" euler_y="-0.0674424" euler_z="1.7237" id="257" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Pig.xml">
+    <EnvObject t0="-239.945" t1="0.630817" t2="91.687" s0="0.741393" s1="0.741393" s2="0.741393" q0="-0.631653" q1="-0.747052" q2="0.133776" q3="0.158216" euler_x="-2.72935" euler_y="-0.0674423" euler_z="1.7237" id="257" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Pig.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-305.596" t1="2.22196" t2="117.286" s0="1" s1="1" s2="1" q0="0" q1="-0.9783" q2="0" q3="0.207191" euler_x="3.14159" euler_y="-0.417405" euler_z="-3.14159" id="258" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Pig.xml">
+    <EnvObject t0="-305.596" t1="2.22196" t2="117.286" s0="1" s1="1" s2="1" q0="0" q1="-0.9783" q2="0" q3="0.207191" euler_x="3.14159" euler_y="-0.417405" euler_z="3.14159" id="258" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Pig.xml">
         <parameters />
     </EnvObject>
     <Decal t0="-239.489" t1="1.2859" t2="91.9536" s0="6.51958" s1="4.06557" s2="4.86138" q0="-0.329119" q1="-0.787156" q2="-0.181049" q3="0.48916" euler_x="-3.0607" euler_y="-1.09573" euler_z="2.30016" id="261" type_file="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" color_r="1" color_g="1" color_b="1" overbright="0">
@@ -1250,7 +1268,7 @@
     <EnvObject t0="-202.006" t1="2.49725" t2="85.001" s0="0.849684" s1="0.849684" s2="0.849684" q0="0" q1="-0.423579" q2="0" q3="0.905859" euler_x="0" euler_y="-0.874785" euler_z="0" id="269" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Cow.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-295.484" t1="14.7072" t2="-118.441" s0="5" s1="5" s2="5" q0="0" q1="0.889257" q2="0" q3="0.457408" euler_x="-3.14159" euler_y="0.950156" euler_z="-3.14159" id="270" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Bomber_2.xml">
+    <EnvObject t0="-295.484" t1="14.7072" t2="-118.441" s0="5" s1="5" s2="5" q0="0" q1="0.889257" q2="0" q3="0.457408" euler_x="3.14159" euler_y="0.950157" euler_z="3.14159" id="270" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Bomber_2.xml">
         <parameters />
     </EnvObject>
     <Decal t0="-205.165" t1="0.402515" t2="84.0108" s0="14.0348" s1="0.502699" s2="14.5521" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="271" type_file="Data/Objects/Decals/TanMud.xml" color_r="1" color_g="1" color_b="1" overbright="0">
@@ -1259,10 +1277,10 @@
     <EnvObject t0="-295.381" t1="-16.6638" t2="-117.955" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="272" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-449.818" t1="108.38" t2="-66.6725" s0="10" s1="10" s2="10" q0="0" q1="-0.958292" q2="0" q3="0.285792" euler_x="-3.14159" euler_y="-0.579665" euler_z="3.14159" id="273" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Gun_4.xml">
+    <EnvObject t0="-449.818" t1="108.38" t2="-66.6725" s0="10" s1="10" s2="10" q0="0" q1="-0.958292" q2="0" q3="0.285792" euler_x="3.14159" euler_y="-0.579666" euler_z="3.14159" id="273" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Gun_4.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-291.282" t1="109.778" t2="35.5124" s0="10" s1="10" s2="10" q0="0" q1="0.934248" q2="0" q3="0.356623" euler_x="3.14159" euler_y="0.729302" euler_z="3.14159" id="274" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Cannon_7.xml">
+    <EnvObject t0="-291.282" t1="109.778" t2="35.5124" s0="10" s1="10" s2="10" q0="0" q1="0.934248" q2="0" q3="0.356623" euler_x="3.14159" euler_y="0.729301" euler_z="3.14159" id="274" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Cannon_7.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-224.268" t1="109.041" t2="228.709" s0="10" s1="10" s2="10" q0="0" q1="0.491795" q2="0" q3="0.870711" euler_x="0" euler_y="1.0283" euler_z="0" id="275" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Laser_Doble.xml">

@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-16.6917" t1="59.359" t2="49.422" s0="1" s1="1" s2="1" q0="-0.023789" q1="0.954206" q2="-0.287567" q3="-0.0789368" euler_x="-2.55617" euler_y="-0.165074" euler_z="3.14159" id="1">
+    <CameraObject t0="-61.7181" t1="56.1937" t2="100.22" s0="1" s1="1" s2="1" q0="0.145727" q1="-0.653558" q2="0.130252" q3="0.731204" euler_x="0.393438" euler_y="-1.45877" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
@@ -746,7 +746,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <ActorObject t0="-230.935" t1="1" t2="144.601" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="150" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+    <ActorObject name="Enemy Giant 2" t0="-230.935" t1="1" t2="144.601" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="150" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1.5" />
@@ -875,7 +875,7 @@
     <EnvObject t0="-281.023" t1="13.9332" t2="138.555" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Barn.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="-230.935" t1="1" t2="142.151" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="157" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+    <ActorObject name="Enemy Giant 1" t0="-230.935" t1="1" t2="142.151" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="157" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1.5" />
@@ -1354,6 +1354,18 @@
             <parameters />
         </EnvObject>
     </ActorObject>
+    <Hotspot name="Enable Enemy Giants" t0="-171.78" t1="2.01145" t2="102.77" s0="0.999999" s1="1" s2="19.9049" q0="0" q1="0.123731" q2="0" q3="0.992316" euler_x="0" euler_y="0.248098" euler_z="0" id="281" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="1" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Enemy Giant 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Enemy Giant 2&quot;,&quot;identifier_type&quot;:3}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
     <Hotspot name="Enable Player Giants" t0="-263.733" t1="3.63306" t2="161.944" s0="1.72993" s1="1.72993" s2="1.72993" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="282" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />

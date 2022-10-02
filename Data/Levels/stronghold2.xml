@@ -49,10 +49,10 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="177.072" t1="7.47429" t2="282.947" s0="1" s1="1" s2="1" q0="-0.00306265" q1="0.915115" q2="-0.403121" q3="-0.00695252" euler_x="-2.31172" euler_y="-0.0151945" euler_z="3.14159" id="1">
+    <CameraObject t0="-31.9815" t1="14.1" t2="113.791" s0="1" s1="1" s2="1" q0="0.0970643" q1="0.565092" q2="-0.067174" q3="0.81654" euler_x="0.236635" euler_y="1.21075" euler_z="0" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="-0.979871" q1="-1.3113e-006" q2="0.199724" q3="0" euler_x="3.14159" euler_y="0.402162" euler_z="2.51932e-006" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.917263" q1="6.49691e-006" q2="0.398429" q3="3.36394e-006" euler_x="3.14158" euler_y="-0.819682" euler_z="2.13907e-005" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
@@ -256,7 +256,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="0.9969" q1="2.04146e-006" q2="0.0784995" q3="0" euler_x="3.14159" euler_y="-0.157158" euler_z="4.26493e-006" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.978086" q1="1.16229e-006" q2="-0.207933" q3="-1.94763e-006" euler_x="3.14159" euler_y="-0.418898" euler_z="-1.60224e-006" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <ActorObject t0="-140.274" t1="1" t2="99.2996" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="53" type_file="Data/Objects/stronghold2/characters/rabbot_bomber_actor.xml" is_player="0">
@@ -565,12 +565,12 @@
             <parameter name="Aggression" type="float" val="0.6" />
             <parameter name="Attack Damage" type="float" val="1.1" />
             <parameter name="Attack Knockback" type="float" val="1.1" />
-            <parameter name="Attack Speed" type="float" val="1.1" />
+            <parameter name="Attack Speed" type="float" val="1.2" />
             <parameter name="Block Follow-up" type="float" val="0.6" />
             <parameter name="Block Skill" type="float" val="0.6" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
-            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1.2" />
             <parameter name="Ear Size" type="float" val="1" />
             <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.5" />
@@ -581,7 +581,7 @@
             <parameter name="Focus FOV distance" type="float" val="100" />
             <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
-            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Ground Aggression" type="float" val="0.75" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="1" />
@@ -1992,7 +1992,7 @@
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;billboard_type&quot;:0,&quot;function&quot;:31,&quot;image_color&quot;:[1,1,1,1],&quot;image_path&quot;:&quot;Data/Textures/ui/stealth_debug/exclamation_themed.png&quot;,&quot;image_size&quot;:6,&quot;overbright&quot;:0,&quot;placeholder_id&quot;:1048,&quot;reference_string&quot;:&quot;&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:6,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;false&quot;]},{&quot;display_message&quot;:&quot;You need to pick up the key first&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:7},{&quot;display_message&quot;:&quot;You go, girl!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:1,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;display_message&quot;:&quot;&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:10,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:2}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:5,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;false&quot;]},{&quot;display_message&quot;:&quot;You need to pick up the key first&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:6},{&quot;display_message&quot;:&quot;You go, girl!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:1,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;display_message&quot;:&quot;&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:10,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:1}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -2000,9 +2000,6 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject name="Billboard Helper" t0="-296.176" t1="26.9552" t2="-117.847" s0="1" s1="1" s2="1" q0="-0.00299072" q1="-0.0494321" q2="-0.625707" q3="0.778485" euler_x="0.0574223" euler_y="-0.0807948" euler_z="-1.35637" id="1048" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
-        <parameters />
-    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />

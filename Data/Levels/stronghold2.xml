@@ -49,13 +49,13 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="19.1757" t1="75.9616" t2="50.0537" s0="1" s1="1" s2="1" q0="-0.170184" q1="-0.828643" q2="0.352098" q3="-0.400518" euler_x="-2.33801" euler_y="0.900466" euler_z="-3.14159" id="1">
+    <CameraObject t0="-7.25189" t1="16.7531" t2="116.873" s0="1" s1="1" s2="1" q0="-0.155845" q1="-0.111006" q2="0.0176281" q3="-0.981366" euler_x="0.314979" euler_y="0.225269" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="-2.4163" t1="1" t2="37.3307" s0="1" s1="1" s2="1" q0="0" q1="0.992875" q2="0" q3="-0.119164" euler_x="3.14159" euler_y="-0.238896" euler_z="3.14159" id="6" type_file="Data/Objects/stronghold2/characters/rabbot_flag_bearer_actor.xml" is_player="0">
+    <ActorObject name="Beta Squad Leader 1" t0="-2.4163" t1="1" t2="37.3307" s0="1" s1="1" s2="1" q0="0" q1="0.992875" q2="0" q3="-0.119164" euler_x="3.14159" euler_y="-0.238896" euler_z="3.14159" id="6" type_file="Data/Objects/stronghold2/characters/rabbot_flag_bearer_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -88,7 +88,7 @@
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Static" type="int" val="0" />
             <parameter name="Stick To Nav Mesh" type="int" val="0" />
-            <parameter name="Teams" type="string" val="enemy1" />
+            <parameter name="Teams" type="string" val="beta" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
             <parameter name="Throw Trainer" type="int" val="0" />
             <parameter name="Unit Type" type="string" val="Flag Bearer" />
@@ -813,7 +813,7 @@
             <parameters />
         </EnvObject>
     </ActorObject>
-    <ActorObject t0="2.14695" t1="1" t2="37.2673" s0="1" s1="1" s2="1" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="153" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+    <ActorObject name="Beta Squad 2" t0="2.14695" t1="1" t2="37.2673" s0="1" s1="1" s2="1" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="153" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -846,7 +846,7 @@
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Static" type="int" val="0" />
             <parameter name="Stick To Nav Mesh" type="int" val="0" />
-            <parameter name="Teams" type="string" val="enemy1" />
+            <parameter name="Teams" type="string" val="beta" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
             <parameter name="Throw Trainer" type="int" val="0" />
             <parameter name="Weapon Catch Skill" type="float" val="1" />
@@ -1005,7 +1005,7 @@
     <EnvObject t0="222.19" t1="22.7753" t2="236.507" s0="10" s1="10" s2="10" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="179" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="-11.7274" t1="1.00012" t2="37.8223" s0="1" s1="1" s2="1" q0="0" q1="0.505458" q2="0" q3="0.862851" euler_x="0" euler_y="1.05983" euler_z="0" id="180" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+    <ActorObject name="Beta Squad 1" t0="-11.7274" t1="1.00012" t2="37.8223" s0="1" s1="1" s2="1" q0="0" q1="0.505458" q2="0" q3="0.862851" euler_x="0" euler_y="1.05983" euler_z="0" id="180" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -1038,7 +1038,7 @@
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Static" type="int" val="0" />
             <parameter name="Stick To Nav Mesh" type="int" val="0" />
-            <parameter name="Teams" type="string" val="enemy1" />
+            <parameter name="Teams" type="string" val="beta" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
             <parameter name="Throw Trainer" type="int" val="0" />
             <parameter name="Weapon Catch Skill" type="float" val="1" />

@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-7.25189" t1="16.7531" t2="116.873" s0="1" s1="1" s2="1" q0="-0.155845" q1="-0.111006" q2="0.0176281" q3="-0.981366" euler_x="0.314979" euler_y="0.225269" euler_z="0" id="1">
+    <CameraObject t0="22.652" t1="95.245" t2="64.8915" s0="1" s1="1" s2="1" q0="0.0867104" q1="0.910161" q2="-0.244176" q3="0.323211" euler_x="-2.61738" euler_y="0.682447" euler_z="-3.14159" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
@@ -1947,6 +1947,15 @@
             <Connection id="316" />
         </Connections>
     </PathPointObject>
+    <EnvObject t0="176.933" t1="6.46045" t2="286.653" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="319" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/room.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="176.775" t1="1.21256" t2="278.896" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="321" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/stairs.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="Rocket Key" t0="177.266" t1="2.49101" t2="286.337" s0="2" s1="2" s2="5" q0="0.664793" q1="0.279712" q2="-0.268637" q3="0.638471" euler_x="1.62853" euler_y="0.795697" euler_z="0.041264" id="323" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Key.xml">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
@@ -2193,4 +2202,7 @@
     <SpawnerItem display_name="Dog Broad Sword" path="Data/Items/DogWeapons/DogBroadSword.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wsword1.png" />
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Path Point" path="Data/Objects/pathpoint/pathpoint.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/pathpoint.png" />
+    <SpawnerItem display_name="Key" path="Data/Objects/quaternius/Platformer_Pack/Key.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Platformer_Pack/Key_N.png" />
+    <SpawnerItem display_name="Room" path="Data/Custom/twowolves/jims_playground/Objects/room.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/room.png" />
+    <SpawnerItem display_name="Stairs" path="Data/Custom/twowolves/jims_playground/Objects/stairs.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/stairs.png" />
 </RecentItems>

@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-194.492" t1="8.38924" t2="105.123" s0="1" s1="1" s2="1" q0="-0.151824" q1="0.328978" q2="-0.0536771" q3="-0.930506" euler_x="0.323476" euler_y="-0.679662" euler_z="0" id="1">
+    <CameraObject t0="-309.662" t1="39.1493" t2="-152.185" s0="1" s1="1" s2="1" q0="0.129669" q1="0.814467" q2="-0.199587" q3="0.529145" euler_x="-2.66096" euler_y="1.15231" euler_z="-3.14159" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
@@ -337,7 +337,7 @@
     <EnvObject t0="-295.381" t1="48" t2="38.4785" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="66" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-447.799" t1="47.9865" t2="-61.4863" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="67" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
+    <EnvObject t0="-447.803" t1="47.9809" t2="-61.4851" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="67" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <Hotspot t0="-27.7914" t1="10.9549" t2="128.898" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="69" type_file="Data/Objects/Hotspots/emitter.xml">
@@ -1250,9 +1250,27 @@
     <EnvObject t0="-202.006" t1="2.49725" t2="85.001" s0="0.849684" s1="0.849684" s2="0.849684" q0="0" q1="-0.423579" q2="0" q3="0.905859" euler_x="0" euler_y="-0.874785" euler_z="0" id="269" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Cow.xml">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-295.484" t1="14.7072" t2="-118.441" s0="5" s1="5" s2="5" q0="0" q1="0.889257" q2="0" q3="0.457408" euler_x="-3.14159" euler_y="0.950156" euler_z="-3.14159" id="270" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Bomber_2.xml">
+        <parameters />
+    </EnvObject>
     <Decal t0="-205.165" t1="0.402515" t2="84.0108" s0="14.0348" s1="0.502699" s2="14.5521" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="271" type_file="Data/Objects/Decals/TanMud.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
+    <EnvObject t0="-295.381" t1="-16.6638" t2="-117.955" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="272" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-449.818" t1="108.38" t2="-66.6725" s0="10" s1="10" s2="10" q0="0" q1="-0.958292" q2="0" q3="0.285792" euler_x="-3.14159" euler_y="-0.579665" euler_z="3.14159" id="273" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Gun_4.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-291.282" t1="109.778" t2="35.5124" s0="10" s1="10" s2="10" q0="0" q1="0.934248" q2="0" q3="0.356623" euler_x="3.14159" euler_y="0.729302" euler_z="3.14159" id="274" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Cannon_7.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-224.268" t1="109.041" t2="228.709" s0="10" s1="10" s2="10" q0="0" q1="0.491795" q2="0" q3="0.870711" euler_x="0" euler_y="1.0283" euler_z="0" id="275" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Laser_Doble.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-366.292" t1="109.414" t2="160.856" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="276" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Gun_5.xml">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
@@ -1492,4 +1510,9 @@
     <SpawnerItem display_name="Barrel" path="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Modular_Dungeon_Pack/Barrel_N.png" />
     <SpawnerItem display_name="Cow" path="Data/Objects/quaternius/Farm_Animals/Cow.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Animals/Cow_N.png" />
     <SpawnerItem display_name="Tan Mud" path="Data/Objects/Decals/TanMud.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/Tanmud.png" />
+    <SpawnerItem display_name="Bomber 2" path="Data/Objects/quaternius/Turret_Pack/Bomber_2.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Turret_Pack/Bomber_2_N.png" />
+    <SpawnerItem display_name="Cannon 7" path="Data/Objects/quaternius/Turret_Pack/Cannon_7.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Turret_Pack/Cannon_7_N.png" />
+    <SpawnerItem display_name="Gun 4" path="Data/Objects/quaternius/Turret_Pack/Gun_4.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Turret_Pack/Gun_4_N.png" />
+    <SpawnerItem display_name="Laser Doble" path="Data/Objects/quaternius/Turret_Pack/Laser_Doble.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Turret_Pack/Laser_Doble_N.png" />
+    <SpawnerItem display_name="Gun 5" path="Data/Objects/quaternius/Turret_Pack/Gun_5.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Turret_Pack/Gun_5_N.png" />
 </RecentItems>

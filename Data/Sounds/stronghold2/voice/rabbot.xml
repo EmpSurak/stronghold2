@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<voice>
+	<hit path="Data/Sounds/stronghold2/voice/rabbot_hit.xml"/>
+    <block_hit path="Data/Sounds/stronghold2/voice/rabbot_hit.xml"/>
+	<attack path="Data/Sounds/stronghold2/voice/rabbot_attack.xml"/>
+	<death path="Data/Sounds/stronghold2/voice/rabbot_death.xml"/>
+    <suspicious path="Data/Sounds/stronghold2/voice/rabbot_suspicious.xml"/>
+    <engage path="Data/Sounds/stronghold2/voice/rabbot_engage.xml"/>
+</voice>

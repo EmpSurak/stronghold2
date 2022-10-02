@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
 <Actor>
-	<Character>Data/Characters/rabbot.xml</Character>
+	<Character>Data/Characters/stronghold2/rabbot.xml</Character>
     <ControlScript>stronghold2/characters/bomber.as</ControlScript>
 </Actor>

@@ -40,7 +40,7 @@ void Init(string level_name){
 
     timer.Add(VictoryJob(function(){
         level.SendMessage("victory");
-        EndLevel("You conquered the castle!", true, 5.0f);
+        EndLevel("You stopped the simulation!", true, 5.0f);
     }));
 
     timer.Add(OnInputPressedJob(0, _key_reset, function(){

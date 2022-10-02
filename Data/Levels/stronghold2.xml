@@ -39,7 +39,7 @@
     <parameter name="Sky Brightness" type="float" val="0.2454" />
     <parameter name="Sky Rotation" type="float" val="-42" />
     <parameter name="Sky Tint" type="string" val="255, 255, 255" />
-    <parameter name="triumphant" type="int" val="0" />
+    <parameter name="triumphant" type="string" val="0" />
 </LevelScriptParameters>
 <NavMeshParameters generate="true" cell_size="0.2" cell_height="0.2" agent_height="1.5" agent_radius="0.3" agent_max_climb="1.5" agent_max_slope="60" />
 <Sky>
@@ -49,10 +49,10 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="54.2807" t1="147.159" t2="-10.1245" s0="1" s1="1" s2="1" q0="0.202113" q1="-0.761914" q2="0.281412" q3="0.547215" euler_x="-2.43398" euler_y="-1.24569" euler_z="3.14159" id="1">
+    <CameraObject t0="178.225" t1="5.38799" t2="281.529" s0="1" s1="1" s2="1" q0="-0.0156635" q1="0.979563" q2="-0.181926" q3="-0.0843389" euler_x="-2.77433" euler_y="-0.171773" euler_z="-3.14159" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.316969" q1="0" q2="-0.948451" q3="0" euler_x="-1.59192e-006" euler_y="0.645076" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.51474" q1="0" q2="-0.857381" q3="0" euler_x="1.11572e-006" euler_y="1.08149" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
@@ -256,7 +256,10 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.992542" q1="-1.84774e-006" q2="0.121827" q3="0" euler_x="-3.14159" euler_y="0.244258" euler_z="3.77116e-006" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.390687" q1="1.90735e-006" q2="-0.920497" q3="0" euler_x="-4.78413e-006" euler_y="-0.802725" euler_z="-3.14159" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="52" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
     <ActorObject t0="-140.274" t1="1" t2="99.2996" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="53" type_file="Data/Objects/stronghold2/characters/rabbot_bomber_actor.xml" is_player="0">
@@ -319,6 +322,9 @@
     <DynamicLightObject t0="-3.50922" t1="1.53238" t2="137.628" s0="13.9505" s1="13.9505" s2="13.9505" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="55" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
         <parameters />
     </DynamicLightObject>
+    <EnvObject name="Play Sound Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="56" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="-82.7475" t1="2.55855" t2="150.433" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="57" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_4.xml">
         <parameters />
     </EnvObject>
@@ -362,6 +368,9 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
+    <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="70" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="-63.6041" t1="0.0424876" t2="171.57" s0="1" s1="1" s2="1" q0="0" q1="0.410021" q2="0" q3="0.912076" euler_x="0" euler_y="0.844954" euler_z="0" id="72" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/therium/rabbit_skull_decal.xml">
         <parameters />
     </EnvObject>
@@ -1146,6 +1155,9 @@
     <EnvObject t0="-200.988" t1="56.1064" t2="459.954" s0="20" s1="20" s2="20" q0="0" q1="-0.981991" q2="0" q3="0.188926" euler_x="3.14159" euler_y="-0.380137" euler_z="3.14159" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-312.449" t1="6.46727" t2="45.9149" s0="1" s1="12.4931" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="222" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/ring.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="-186.152" t1="2.07304" t2="118.76" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="223" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
         <parameters />
     </EnvObject>
@@ -1170,10 +1182,13 @@
     <Decal t0="-238.195" t1="-0.391359" t2="101.75" s0="44.6829" s1="1.40678" s2="33.3182" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="230" type_file="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
+    <EnvObject t0="-312.63" t1="0.226295" t2="45.7098" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="232" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/octagon_thin.xml">
+        <parameters />
+    </EnvObject>
     <ItemObject t0="-232.293" t1="0.0999998" t2="144.483" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="235" type_file="Data/Items/DogWeapons/DogSpear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
-    <ActorObject name="Sir Purrington" t0="-71.4788" t1="1" t2="184.259" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="236" type_file="Data/Objects/characters/cats/fancy_striped_cat_actor.xml" is_player="1">
+    <ActorObject name="Sir Purrington Copy" t0="-314.331" t1="1.55316" t2="46.2035" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="236" type_file="Data/Objects/characters/cats/fancy_striped_cat_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -1230,7 +1245,7 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
         </EnvObjectAttachments>
-        <EnvObject s0="0.186907" s1="0.186903" s2="0.295176" id="241" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Key.xml">
+        <EnvObject s0="0.186907" s1="0.186903" s2="0.295176" id="237" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Key.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
@@ -1931,6 +1946,9 @@
     <EnvObject t0="-292.772" t1="8.52739" t2="-158.313" s0="2.5" s1="2.5" s2="2.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="304" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
+    <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="306" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
     <ActorObject name="Alpha Squad 4" t0="169.719" t1="1" t2="260.947" s0="1" s1="1" s2="1" q0="0" q1="0.763546" q2="0" q3="0.645753" euler_x="3.14159" euler_y="1.40402" euler_z="3.14159" id="308" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
@@ -1991,7 +2009,7 @@
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Bomb Key&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mini Bomb Key&quot;,&quot;identifier_type&quot;:3},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;true&quot;]},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Bomb Key&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mini Bomb Key&quot;,&quot;identifier_type&quot;:3}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Bomb Key&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:340,&quot;identifier_type&quot;:0},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;true&quot;]},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Bomb Key&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:340,&quot;identifier_type&quot;:0}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -2055,11 +2073,84 @@
     <EnvObject name="Bomb Key" t0="177.266" t1="2.49101" t2="286.337" s0="2" s1="2" s2="5" q0="0.664793" q1="0.279712" q2="-0.268637" q3="0.638471" euler_x="1.62853" euler_y="0.795698" euler_z="0.0412633" id="323" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Key.xml">
         <parameters />
     </EnvObject>
+    <ActorObject name="Sir Purrington" t0="-71.4663" t1="1" t2="183.703" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="339" type_file="Data/Objects/characters/cats/fancy_striped_cat_actor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.06554" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="0" />
+            <parameter name="Focus FOV horizontal" type="float" val="0" />
+            <parameter name="Focus FOV vertical" type="float" val="0" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="2" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.88305" />
+            <parameter name="Muscle" type="float" val="0.57062" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="cat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player" />
+            <parameter name="Throw Counter Probability" type="float" val="0.31638" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="0.35028" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="339" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="0.133333" green="0.133333" blue="0.133333" />
+            <Color label="Leather" channel="1" red="0.485098" green="0.752157" blue="0.715686" />
+            <Color label="Shirt" channel="2" red="0.643922" green="0.542745" blue="0.413333" />
+            <Color label="Pants" channel="3" red="0.67817" green="0.780523" blue="0.756993" />
+        </Palette>
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="1" num_connections="1" m0="0.154117" m1="-0.984699" m2="-0.0811363" m3="0" m4="0.847724" m5="0.08961" m6="0.522787" m7="0" m8="-0.50754" m9="-0.149367" m10="0.848574" m11="0" m12="0.0928345" m13="0.170909" m14="0.133423" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.186907" s1="0.186903" s2="0.295176" id="340" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Key.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
     <Hotspot name="Bomb Activator" t0="-296.739" t1="15.9561" t2="-118.068" s0="4.81199" s1="4.81199" s2="4.81199" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="344" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 2&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 3&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Lava&quot;,&quot;identifier_type&quot;:3},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:10,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;false&quot;]},{&quot;display_message&quot;:&quot;You need to pick up the key first&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:21},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_type&quot;:3},{&quot;add_velocity&quot;:true,&quot;function&quot;:24,&quot;height_offset&quot;:0,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_towards_target&quot;:&quot;Upper Pyram Exhaust&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_towards_target&quot;:3,&quot;set_velocity_mode&quot;:1,&quot;velocity_magnitude&quot;:250},{&quot;duration&quot;:1000,&quot;function&quot;:2},{&quot;character_option&quot;:44,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_type&quot;:3,&quot;param_type&quot;:7,&quot;value_type_option&quot;:0},{&quot;duration&quot;:5000,&quot;function&quot;:2},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/explosives/explosion1.wav&quot;,&quot;sound_type&quot;:0},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;rotate_pyramid&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Lava&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 2&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 3&quot;,&quot;identifier_type&quot;:3},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:1,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;display_message&quot;:&quot;&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:10,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:6}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;function&quot;:13,&quot;level_param&quot;:17,&quot;param_after&quot;:&quot;0&quot;,&quot;param_name&quot;:&quot;triumphant&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;pyramid_destroyed&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 2&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 3&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Lava&quot;,&quot;identifier_type&quot;:3},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:12,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;has_bomb_key&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;false&quot;]},{&quot;display_message&quot;:&quot;You need to pick up the key first&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:26},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_type&quot;:3},{&quot;function&quot;:13,&quot;level_param&quot;:17,&quot;param_after&quot;:&quot;1&quot;,&quot;param_name&quot;:&quot;triumphant&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;pyramid_destroyed&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;true&quot;]},{&quot;duration&quot;:5000,&quot;function&quot;:2},{&quot;add_velocity&quot;:true,&quot;function&quot;:24,&quot;height_offset&quot;:0,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_towards_target&quot;:&quot;Upper Pyram Exhaust&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_towards_target&quot;:3,&quot;set_velocity_mode&quot;:1,&quot;velocity_magnitude&quot;:250},{&quot;duration&quot;:1200,&quot;function&quot;:2},{&quot;character_option&quot;:45,&quot;damage_amount&quot;:1,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Rocket Man&quot;,&quot;identifier_type&quot;:3,&quot;param_type&quot;:7,&quot;value_type_option&quot;:0},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;placeholder_id&quot;:56,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/explosives/explosion1.wav&quot;,&quot;sound_type&quot;:0},{&quot;duration&quot;:5000,&quot;function&quot;:2},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;rotate_pyramid&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;false&quot;]},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Lava&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 2&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Smoke 3&quot;,&quot;identifier_type&quot;:3},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:1,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;display_message&quot;:&quot;&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:10,&quot;function&quot;:20},{&quot;function&quot;:7,&quot;line&quot;:8}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot name="Outro" t0="-294.482" t1="14.1491" t2="-133.278" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="601" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="1" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Sir Purrington Copy&quot;,&quot;identifier_type&quot;:3},{&quot;duration&quot;:1000,&quot;function&quot;:2},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:1,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;pyramid_destroyed&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;true&quot;]},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[-198.851318359375,129.8653564453125,8.5711259841918945],&quot;target_camera_rotation&quot;:[-5.1571573749242816e-006,-81.939918518066406,4.4783032535633538e-006],&quot;target_camera_zoom&quot;:90},{&quot;duration&quot;:15000,&quot;function&quot;:2},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[-47.199546813964844,4.7419309616088867,-207.78810119628906],&quot;target_camera_rotation&quot;:[0,138.27690124511719,0],&quot;target_camera_zoom&quot;:90},{&quot;duration&quot;:10000,&quot;function&quot;:2},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[-95.051734924316406,30.392215728759766,96.70965576171875],&quot;target_camera_rotation&quot;:[0,99.29254150390625,0],&quot;target_camera_zoom&quot;:90},{&quot;duration&quot;:10000,&quot;function&quot;:2},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[-57.956729888916016,19.860830307006836,178.92556762695312],&quot;target_camera_rotation&quot;:[-25.66357421875,4.0579838752746582,2.9882075978093781e-006],&quot;target_camera_zoom&quot;:90},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Sir Purrington Copy&quot;,&quot;identifier_type&quot;:3},{&quot;duration&quot;:10000,&quot;function&quot;:2},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[-313.49490356445312,1.6487431526184082,45.990543365478516],&quot;target_camera_rotation&quot;:[0,110.27289581298828,0],&quot;target_camera_zoom&quot;:90}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -2314,6 +2405,7 @@
     <SpawnerItem display_name="Room" path="Data/Custom/twowolves/jims_playground/Objects/room.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/room.png" />
     <SpawnerItem display_name="Stairs" path="Data/Custom/twowolves/jims_playground/Objects/stairs.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/stairs.png" />
     <SpawnerItem display_name="Blood Spatter" path="Data/Objects/Decals/bloodspatter.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/bloodspatter.png" />
-    <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Particle Emitter Hotspot" path="Data/Objects/Hotspots/emitter.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/emitter_icon.png" />
+    <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
+    <SpawnerItem display_name="sir_purrington.xml" path="Data/Objects/stronghold2/prefabs/characters/sir_purrington.xml" thumbnail_path="empty_placeholder.png" />
 </RecentItems>

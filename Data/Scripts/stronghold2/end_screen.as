@@ -48,10 +48,8 @@ class EndScreen : AHGUI::GUI {
         AHGUI::Divider@ main_pane = root.addDivider(DDTop, DOVertical, ivec2(2562, 1440));
         main_pane.setHorizontalAlignment(BALeft);
 
-		AHGUI::Divider@ title1 = main_pane.addDivider(DDTop, DOHorizontal, ivec2(AH_UNDEFINEDSIZE, 150));
-		DisplayText(title1, DDCenter, "Stronghold by Surak", _text_color, true);
-		AHGUI::Divider@ title2 = main_pane.addDivider(DDTop, DOHorizontal, ivec2(AH_UNDEFINEDSIZE, 50));
-		DisplayText(title2, DDCenter, "October 2020 Jam: Ancient Times", _text_color, true);
+		AHGUI::Divider@ title1 = main_pane.addDivider(DDTop, DOHorizontal, ivec2(AH_UNDEFINEDSIZE, 250));
+		DisplayText(title1, DDCenter, "Stronghold 2 by Surak", _text_color, true);
 		AHGUI::Divider@ title3 = main_pane.addDivider(DDTop, DOHorizontal, ivec2(AH_UNDEFINEDSIZE, 250));
 
         AHGUI::Divider@ message_title = main_pane.addDivider(DDTop, DOHorizontal, ivec2(AH_UNDEFINEDSIZE, 250));

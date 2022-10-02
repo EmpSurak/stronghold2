@@ -212,12 +212,12 @@ string GetTeam(int char_id){
 
 bool IsTriumphant(){
     ScriptParams@ level_params = level.GetScriptParams();
-    return level_params.HasParam("triumphant") && level_params.GetInt("triumphant") == 1;
+    return level_params.HasParam("triumphant") && level_params.GetString("triumphant") == "1";
 }
 
 void SetTriumphant(bool _value){
     ScriptParams@ level_params = level.GetScriptParams();
-    level_params.SetInt("triumphant", _value ? 1 : 0);
+    level_params.SetString("triumphant", _value ? "1" : "0");
 }
 
 // based on (but modified) arena_level.as

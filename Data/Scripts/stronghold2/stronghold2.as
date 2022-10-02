@@ -9,7 +9,6 @@
 #include "stronghold2/friend_controller.as"
 #include "stronghold2/timed_execution/nav_destination_job.as"
 #include "stronghold2/timed_execution/delayed_death_job.as"
-#include "stronghold2/timed_execution/defeat_job.as"
 #include "stronghold2/timed_execution/victory_job.as"
 #include "stronghold2/common.as"
 #include "stronghold2/constants.as"
@@ -32,11 +31,6 @@ void Init(string level_name){
     current_time = 0.0f;
     casualties = 0;
     SetTriumphant(false);
-
-    timer.Add(DefeatJob(function(){
-        casualties++;
-        EndLevel("You failed!", false);
-    }));
 
     timer.Add(VictoryJob(function(){
         level.SendMessage("victory");

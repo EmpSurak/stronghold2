@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="2.60252" t1="27.0202" t2="107.427" s0="1" s1="1" s2="1" q0="0.194082" q1="-0.494908" q2="0.114454" q3="0.839225" euler_x="0.454536" euler_y="-1.06565" euler_z="0" id="1">
+    <CameraObject t0="-110.969" t1="25.7983" t2="-170.441" s0="1" s1="1" s2="1" q0="-0.208831" q1="-0.437278" q2="0.105156" q3="-0.868401" euler_x="0.471993" euler_y="0.932958" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
@@ -960,7 +960,7 @@
     <EnvObject t0="-315.512" t1="13.9165" t2="130.502" s0="5" s1="5" s2="5" q0="0" q1="0.829876" q2="0" q3="0.557948" euler_x="3.14159" euler_y="1.18382" euler_z="3.14159" id="163" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Silo.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-41.3693" t1="-0.618051" t2="-174.33" s0="0.5" s1="0.5" s2="0.5" q0="0" q1="0.276886" q2="0" q3="0.960903" euler_x="0" euler_y="0.561104" euler_z="0" id="164" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/OpethRockr55/Objects/Environment/Statues/WhaleManStatue.xml">
+    <EnvObject t0="-38.9085" t1="-0.618049" t2="-187.053" s0="0.5" s1="0.5" s2="0.5" q0="0" q1="0.856585" q2="0" q3="0.516007" euler_x="3.14159" euler_y="1.08437" euler_z="3.14159" id="164" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/OpethRockr55/Objects/Environment/Statues/WhaleManStatue.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-32.4463" t1="47.3865" t2="-443.717" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="165" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
@@ -1169,7 +1169,7 @@
     <EnvObject t0="-137.212" t1="0" t2="-146.233" s0="10" s1="10" s2="10" q0="0" q1="-0.808225" q2="0" q3="0.588874" euler_x="3.14159" euler_y="-1.25933" euler_z="3.14159" id="217" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-49.6585" t1="-1.90735e-006" t2="-207.746" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="218" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml">
+    <EnvObject t0="-49.6585" t1="-1.90735e-006" t2="-207.746" s0="0.571968" s1="0.571968" s2="0.571968" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="218" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-1236.62" t1="49.506" t2="-331.743" s0="20" s1="20" s2="20" q0="0.316398" q1="0" q2="0" q3="0.948627" euler_x="0.64386" euler_y="0" euler_z="0" id="219" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/tri.xml" no_navmesh="true">
@@ -1289,6 +1289,18 @@
     <EnvObject t0="-366.292" t1="109.414" t2="160.856" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="276" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Gun_5.xml">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-43.4089" t1="-0.884205" t2="-200.68" s0="0.571968" s1="0.571968" s2="0.571968" q0="0" q1="-0.313236" q2="0" q3="0.949676" euler_x="0" euler_y="-0.637197" euler_z="0" id="297" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml">
+        <parameters />
+    </EnvObject>
+    <ItemObject t0="-75.5939" t1="1.79443" t2="-191.328" s0="1" s1="1" s2="1" q0="0" q1="0" q2="-0.707107" q3="0.707107" euler_x="0" euler_y="0" euler_z="-1.5708" id="298" type_file="Data/Items/DogWeapons/DogGlaive.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="-78.674" t1="1.79443" t2="-191.328" s0="1" s1="1" s2="1" q0="0" q1="0" q2="-0.707107" q3="0.707107" euler_x="0" euler_y="0" euler_z="-1.5708" id="299" type_file="Data/Items/DogWeapons/DogGlaive.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="-77.0915" t1="1.73646" t2="-191.269" s0="1" s1="1" s2="1" q0="0" q1="0" q2="-0.707107" q3="0.707107" euler_x="0" euler_y="0" euler_z="-1.5708" id="300" type_file="Data/Items/DogWeapons/DogBroadSword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
@@ -1533,4 +1545,6 @@
     <SpawnerItem display_name="Gun 4" path="Data/Objects/quaternius/Turret_Pack/Gun_4.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Turret_Pack/Gun_4_N.png" />
     <SpawnerItem display_name="Laser Doble" path="Data/Objects/quaternius/Turret_Pack/Laser_Doble.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Turret_Pack/Laser_Doble_N.png" />
     <SpawnerItem display_name="Gun 5" path="Data/Objects/quaternius/Turret_Pack/Gun_5.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Turret_Pack/Gun_5_N.png" />
+    <SpawnerItem display_name="Dog Glaive" path="Data/Items/DogWeapons/DogGlaive.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wglaive.png" />
+    <SpawnerItem display_name="Dog Broad Sword" path="Data/Items/DogWeapons/DogBroadSword.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wsword1.png" />
 </RecentItems>

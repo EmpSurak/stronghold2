@@ -49,7 +49,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-332.206" t1="59.4362" t2="-185.022" s0="1" s1="1" s2="1" q0="0.113212" q1="0.873084" q2="-0.40753" q3="0.242542" euler_x="-2.26817" euler_y="0.541934" euler_z="3.14159" id="1">
+    <CameraObject t0="-16.6917" t1="59.359" t2="49.422" s0="1" s1="1" s2="1" q0="-0.023789" q1="0.954206" q2="-0.287567" q3="-0.0789368" euler_x="-2.55617" euler_y="-0.165074" euler_z="3.14159" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
@@ -1289,7 +1289,149 @@
     <EnvObject t0="-366.292" t1="109.414" t2="160.856" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="276" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Gun_5.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-43.4089" t1="-0.884205" t2="-200.68" s0="0.571968" s1="0.571968" s2="0.571968" q0="0" q1="-0.313236" q2="0" q3="0.949676" euler_x="0" euler_y="-0.637197" euler_z="0" id="297" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml">
+    <ActorObject name="Player Giant 1" t0="-289.033" t1="1" t2="167.697" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="278" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1.5" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="0.8" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="1" />
+            <parameter name="Character Scale" type="float" val="1.8" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.5" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="1" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="278" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.726586" m1="-0.106338" m2="-0.678796" m3="0" m4="0.000953175" m5="0.988106" m6="-0.153774" m7="0" m8="0.687075" m9="0.111083" m10="0.718045" m11="0" m12="-0.0234718" m13="0.575304" m14="-0.0579948" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.291753" m1="0.00212705" m2="-0.956491" m3="0" m4="-0.000678908" m5="0.999998" m6="0.00201672" m7="0" m8="0.956493" m9="6.09865e-005" m10="0.291754" m11="0" m12="-0.0113068" m13="0.517625" m14="0.0328979" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="279" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.258881" s1="0.258881" s2="0.258881" id="280" color_r="0" color_g="0.082141" color_b="0.698039" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
+    <Hotspot name="Enable Player Giants" t0="-263.733" t1="3.63306" t2="161.944" s0="1.72993" s1="1.72993" s2="1.72993" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="282" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="1" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Player Giant 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Player Giant 2&quot;,&quot;identifier_type&quot;:3}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <ActorObject name="Player Giant 2" t0="-289.033" t1="1" t2="165.815" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="285" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1.5" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="0.8" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="1" />
+            <parameter name="Character Scale" type="float" val="1.8" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.5" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="1" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="285" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.726586" m1="-0.106338" m2="-0.678796" m3="0" m4="0.000953175" m5="0.988106" m6="-0.153774" m7="0" m8="0.687075" m9="0.111083" m10="0.718045" m11="0" m12="-0.0234718" m13="0.575304" m14="-0.0579948" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.291753" m1="0.00212705" m2="-0.956491" m3="0" m4="-0.000678908" m5="0.999998" m6="0.00201672" m7="0" m8="0.956493" m9="6.09865e-005" m10="0.291754" m11="0" m12="-0.0113068" m13="0.517625" m14="0.0328979" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="286" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.258881" s1="0.258881" s2="0.258881" id="287" color_r="0" color_g="0.082141" color_b="0.698039" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
+    <EnvObject t0="-43.4089" t1="-0.884205" t2="-200.68" s0="0.571968" s1="0.571968" s2="0.571968" q0="0" q1="-0.313236" q2="0" q3="0.949676" euler_x="0" euler_y="-0.637198" euler_z="0" id="297" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml">
         <parameters />
     </EnvObject>
     <ItemObject t0="-75.5939" t1="1.79443" t2="-191.328" s0="1" s1="1" s2="1" q0="0" q1="0" q2="-0.707107" q3="0.707107" euler_x="0" euler_y="0" euler_z="-1.5708" id="298" type_file="Data/Items/DogWeapons/DogGlaive.xml" color_r="1" color_g="1" color_b="1" overbright="0">
@@ -1476,7 +1618,6 @@
     <SpawnerItem display_name="Ruin Floor" path="Data/Objects/Buildings/Ruins/mysterious/ruin_floor.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/ruin_floor.png" />
     <SpawnerItem display_name="Wooden Window Box Medium" path="Data/Objects/Buildings/window_boxes/window_box_medium.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/window_box_medium.png" />
     <SpawnerItem display_name="Wooden Crate Pile 1" path="Data/Prototypes/CaveArena/Crate_Pile1.xml" thumbnail_path="" />
-    <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Rabbot" path="Data/Objects/characters/rabbot_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/rabbot_actor.png" />
     <SpawnerItem display_name="Pyra" path="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/pyra.png" />
     <SpawnerItem display_name="Mushroom" path="Data/Objects/quaternius/Platformer_Pack/Mushroom.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Platformer_Pack/Mushroom_N.png" />
@@ -1559,4 +1700,5 @@
     <SpawnerItem display_name="Gun 5" path="Data/Objects/quaternius/Turret_Pack/Gun_5.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Turret_Pack/Gun_5_N.png" />
     <SpawnerItem display_name="Dog Glaive" path="Data/Items/DogWeapons/DogGlaive.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wglaive.png" />
     <SpawnerItem display_name="Dog Broad Sword" path="Data/Items/DogWeapons/DogBroadSword.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wsword1.png" />
+    <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
 </RecentItems>

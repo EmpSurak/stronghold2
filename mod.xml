@@ -1,7 +1,7 @@
 <? xml version="1.0" ?>
 <Mod>
     <Id>com-surak-stronghold2</Id> 
-    <Name>Stronghold2</Name> 
+    <Name>Stronghold 2</Name> 
 
     <Category>Level</Category>
 
@@ -24,6 +24,21 @@
 
     <ModDependency>
        <Id>drika-hotspot</Id>
+       <Version>0.1.0</Version> 
+    </ModDependency>
+
+    <ModDependency>
+       <Id>jims-assets</Id>
+       <Version>1.0.1</Version> 
+    </ModDependency>
+
+    <ModDependency>
+       <Id>simple-shapes</Id>
+       <Version>1.0</Version> 
+    </ModDependency>
+
+    <ModDependency>
+       <Id>quaternius-assets</Id>
        <Version>0.1.0</Version> 
     </ModDependency>
 

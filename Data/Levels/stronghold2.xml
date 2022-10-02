@@ -49,10 +49,10 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-247.983" t1="12.8249" t2="151.64" s0="1" s1="1" s2="1" q0="-0.138607" q1="0.834291" q2="-0.243555" q3="-0.474792" euler_x="-2.57352" euler_y="-1.03477" euler_z="3.14159" id="1">
+    <CameraObject t0="-295.729" t1="8.90717" t2="166.436" s0="1" s1="1" s2="1" q0="-0.284642" q1="-0.653016" q2="0.29106" q3="-0.638618" euler_x="-2.30302" euler_y="1.5485" euler_z="3.14159" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.587546" q1="1.49012e-005" q2="-0.809445" q3="-1.46702e-005" euler_x="-0.000133608" euler_y="1.25701" euler_z="3.14146" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.958873" q1="1.5676e-005" q2="-0.284483" q3="-1.77696e-006" euler_x="-3.14158" euler_y="0.577065" euler_z="3.70746e-005" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
@@ -256,7 +256,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.996037" q1="-1.01253e-005" q2="0.0871129" q3="1.02795e-006" euler_x="-3.14159" euler_y="0.174418" euler_z="2.06631e-005" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.350188" q1="-4.29153e-006" q2="0.93653" q3="8.50111e-006" euler_x="-1.85393e-005" euler_y="0.715405" euler_z="3.14157" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="52" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -1158,7 +1158,7 @@
     <EnvObject t0="-200.988" t1="56.1064" t2="459.954" s0="20" s1="20" s2="20" q0="0" q1="-0.981991" q2="0" q3="0.188926" euler_x="3.14159" euler_y="-0.380137" euler_z="3.14159" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-312.449" t1="6.46727" t2="45.9149" s0="1" s1="12.4931" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="222" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/ring.xml">
+    <EnvObject t0="-312.449" t1="6.46714" t2="45.9149" s0="1" s1="12.4931" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="222" color_r="0.99999" color_g="1" color_b="1" overbright="50" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/ring.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-186.152" t1="2.07304" t2="118.76" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="223" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
@@ -1185,7 +1185,7 @@
     <Decal t0="-238.195" t1="-0.391359" t2="101.75" s0="44.6829" s1="1.40678" s2="33.3182" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="230" type_file="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
-    <EnvObject t0="-312.63" t1="0.226295" t2="45.7098" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="232" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/octagon_thin.xml">
+    <EnvObject t0="-312.63" t1="0.226295" t2="45.7098" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="232" color_r="1" color_g="1" color_b="1" overbright="50" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/octagon_thin.xml">
         <parameters />
     </EnvObject>
     <ItemObject t0="-232.293" t1="0.0999998" t2="144.483" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="235" type_file="Data/Items/DogWeapons/DogSpear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
@@ -1548,13 +1548,13 @@
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1.5" />
-            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1.25" />
             <parameter name="Attack Speed" type="float" val="0.8" />
             <parameter name="Block Follow-up" type="float" val="0.5" />
-            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.75" />
             <parameter name="Cannot Be Disarmed" type="int" val="1" />
             <parameter name="Character Scale" type="float" val="1.8" />
-            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1.25" />
             <parameter name="Ear Size" type="float" val="1" />
             <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.5" />
@@ -1703,13 +1703,13 @@
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1.5" />
-            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1.25" />
             <parameter name="Attack Speed" type="float" val="0.8" />
             <parameter name="Block Follow-up" type="float" val="0.5" />
-            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.75" />
             <parameter name="Cannot Be Disarmed" type="int" val="1" />
             <parameter name="Character Scale" type="float" val="1.8" />
-            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1.25" />
             <parameter name="Ear Size" type="float" val="1" />
             <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.5" />
@@ -2113,13 +2113,13 @@
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1.5" />
-            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1.25" />
             <parameter name="Attack Speed" type="float" val="0.8" />
             <parameter name="Block Follow-up" type="float" val="0.5" />
-            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.75" />
             <parameter name="Cannot Be Disarmed" type="int" val="1" />
             <parameter name="Character Scale" type="float" val="1.8" />
-            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1.25" />
             <parameter name="Ear Size" type="float" val="1" />
             <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.5" />
@@ -2202,13 +2202,13 @@
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1.5" />
-            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1.25" />
             <parameter name="Attack Speed" type="float" val="0.8" />
             <parameter name="Block Follow-up" type="float" val="0.5" />
-            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.75" />
             <parameter name="Cannot Be Disarmed" type="int" val="1" />
             <parameter name="Character Scale" type="float" val="1.8" />
-            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1.25" />
             <parameter name="Ear Size" type="float" val="1" />
             <parameter name="Fall Damage Multiplier" type="float" val="1" />
             <parameter name="Fat" type="float" val="0.5" />

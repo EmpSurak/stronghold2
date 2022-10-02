@@ -49,13 +49,13 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-113.202" t1="2.81824" t2="-195.85" s0="1" s1="1" s2="1" q0="-0.0984039" q1="0.495646" q2="-0.0566428" q3="-0.861071" euler_x="0.227574" euler_y="-1.04459" euler_z="0" id="1">
+    <CameraObject t0="-49.3832" t1="41.3579" t2="46.1181" s0="1" s1="1" s2="1" q0="0.00808313" q1="-0.982238" q2="0.182341" q3="0.0435426" euler_x="-2.7745" euler_y="-0.088602" euler_z="3.14159" id="1">
         <parameters />
     </CameraObject>
     <EnvObject t0="-43.4664" t1="3.71337" t2="139.318" s0="5" s1="5" s2="5" q0="0" q1="0.511354" q2="0" q3="0.85937" euler_x="0" euler_y="1.07352" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/House_1.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="-2.4163" t1="1" t2="37.3307" s0="1" s1="1" s2="1" q0="0" q1="0.965926" q2="0" q3="-0.258819" euler_x="3.14159" euler_y="-0.523599" euler_z="3.14159" id="6" type_file="Data/Objects/stronghold2/characters/rabbot_flag_bearer_actor.xml" is_player="0">
+    <ActorObject t0="-2.4163" t1="1" t2="37.3307" s0="1" s1="1" s2="1" q0="0" q1="0.992875" q2="0" q3="-0.119164" euler_x="-3.14159" euler_y="-0.238895" euler_z="3.14159" id="6" type_file="Data/Objects/stronghold2/characters/rabbot_flag_bearer_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -247,6 +247,63 @@
             </EnvObject>
         </Group>
     </Group>
+    <ActorObject t0="-140.274" t1="1" t2="99.2996" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="53" type_file="Data/Objects/stronghold2/characters/rabbot_bomber_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.75" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.1" />
+            <parameter name="Block Follow-up" type="float" val="0.3" />
+            <parameter name="Block Skill" type="float" val="0.3" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="2" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="2" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Unit Type" type="string" val="Bomber" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="53" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="-1" m1="7.93719e-005" m2="-3.47602e-006" m3="0" m4="7.93727e-005" m5="1" m6="-0.000208418" m7="0" m8="3.45947e-006" m9="-0.000208419" m10="-1" m11="0" m12="-0.00122499" m13="0.594974" m14="-0.0668793" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="54" color_r="0" color_g="0.183557" color_b="0.6" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
     <DynamicLightObject t0="-3.50922" t1="1.53238" t2="137.628" s0="13.9505" s1="13.9505" s2="13.9505" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="55" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
         <parameters />
     </DynamicLightObject>
@@ -510,7 +567,7 @@
             <parameter name="Focus FOV horizontal" type="float" val="0" />
             <parameter name="Focus FOV vertical" type="float" val="0" />
             <parameter name="Ground Aggression" type="float" val="0.5" />
-            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Knockout Shield" type="int" val="2" />
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="0.88305" />
             <parameter name="Muscle" type="float" val="0.57062" />
@@ -533,19 +590,19 @@
         <ItemConnections />
         <Palette>
             <Color label="Fur" channel="0" red="0.133333" green="0.133333" blue="0.133333" />
-            <Color label="Pants" channel="1" red="0.67817" green="0.780523" blue="0.756993" />
+            <Color label="Leather" channel="1" red="0.485098" green="0.752157" blue="0.715686" />
             <Color label="Shirt" channel="2" red="0.643922" green="0.542745" blue="0.413333" />
-            <Color label="Leather" channel="3" red="0.485098" green="0.752157" blue="0.715686" />
+            <Color label="Pants" channel="3" red="0.67817" green="0.780523" blue="0.756993" />
         </Palette>
     </ActorObject>
     <ActorObject t0="-67.2179" t1="1" t2="173.538" s0="1" s1="1" s2="1" q0="0" q1="0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="1.0472" euler_z="3.14159" id="139" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
-            <parameter name="Aggression" type="float" val="0.5" />
-            <parameter name="Attack Damage" type="float" val="1" />
-            <parameter name="Attack Knockback" type="float" val="1" />
-            <parameter name="Attack Speed" type="float" val="1" />
-            <parameter name="Block Follow-up" type="float" val="0.5" />
-            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Aggression" type="float" val="0.6" />
+            <parameter name="Attack Damage" type="float" val="1.1" />
+            <parameter name="Attack Knockback" type="float" val="1.1" />
+            <parameter name="Attack Speed" type="float" val="1.1" />
+            <parameter name="Block Follow-up" type="float" val="0.6" />
+            <parameter name="Block Skill" type="float" val="0.6" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1" />
@@ -689,6 +746,64 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
+    <ActorObject t0="-230.935" t1="1" t2="144.601" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="150" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1.5" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="0.8" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="1" />
+            <parameter name="Character Scale" type="float" val="1.8" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.5" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="1" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="enemy1" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="150" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="235" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette />
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.726586" m1="-0.106338" m2="-0.678796" m3="0" m4="0.000953175" m5="0.988106" m6="-0.153774" m7="0" m8="0.687075" m9="0.111083" m10="0.718045" m11="0" m12="-0.0234718" m13="0.575304" m14="-0.0579948" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="151" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
     <ActorObject t0="2.14695" t1="1" t2="37.2673" s0="1" s1="1" s2="1" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="153" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
@@ -745,9 +860,70 @@
             <parameters />
         </EnvObject>
     </ActorObject>
+    <ItemObject t0="-232.293" t1="0.100011" t2="142.292" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="155" type_file="Data/Items/DogWeapons/DogSpear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
     <EnvObject t0="-281.023" t1="13.9332" t2="138.555" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Barn.xml">
         <parameters />
     </EnvObject>
+    <ActorObject t0="-230.935" t1="1" t2="142.151" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="157" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1.5" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="0.8" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="1" />
+            <parameter name="Character Scale" type="float" val="1.8" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.5" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="1" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="enemy1" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="157" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="155" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette />
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.726586" m1="-0.106338" m2="-0.678796" m3="0" m4="0.000953175" m5="0.988106" m6="-0.153774" m7="0" m8="0.687075" m9="0.111083" m10="0.718045" m11="0" m12="-0.0234718" m13="0.575304" m14="-0.0579948" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.053809" s1="0.053809" s2="0.053809" id="231" color_r="1" color_g="0" color_b="0" overbright="5" type_file="Data/Custom/FnB/Objects/Simple Shapes/marble/sphere.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
     <EnvObject t0="-234.283" t1="4.8422" t2="99.0706" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Well.xml">
         <parameters />
     </EnvObject>
@@ -760,7 +936,7 @@
     <EnvObject t0="130.372" t1="47.3865" t2="-394.966" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="161" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-187.782" t1="4.44563" t2="136.7" s0="5" s1="5" s2="5" q0="0" q1="-0.998674" q2="0" q3="0.0514753" euler_x="-3.14159" euler_y="-0.102996" euler_z="3.14159" id="162" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/ChickenCoop.xml">
+    <EnvObject t0="-187.782" t1="4.44563" t2="136.7" s0="5" s1="5" s2="5" q0="0" q1="-0.998674" q2="0" q3="0.0514753" euler_x="3.14159" euler_y="-0.102996" euler_z="3.14159" id="162" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/ChickenCoop.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-315.512" t1="13.9165" t2="130.502" s0="5" s1="5" s2="5" q0="0" q1="0.829876" q2="0" q3="0.557948" euler_x="3.14159" euler_y="1.18382" euler_z="3.14159" id="163" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Silo.xml">
@@ -805,13 +981,13 @@
     <EnvObject t0="222.19" t1="22.7753" t2="186.845" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="177" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="222.19" t1="22.7753" t2="314.239" s0="10" s1="10" s2="10" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="178" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
+    <EnvObject t0="222.19" t1="22.7753" t2="314.239" s0="10" s1="10" s2="10" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="178" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="222.19" t1="22.7753" t2="236.507" s0="10" s1="10" s2="10" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="179" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
+    <EnvObject t0="222.19" t1="22.7753" t2="236.507" s0="10" s1="10" s2="10" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="179" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="-11.7274" t1="1.00012" t2="37.8223" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="180" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
+    <ActorObject t0="-11.7274" t1="1.00012" t2="37.8223" s0="1" s1="1" s2="1" q0="0" q1="0.505458" q2="0" q3="0.862851" euler_x="0" euler_y="1.05983" euler_z="0" id="180" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -873,13 +1049,13 @@
     <EnvObject t0="113.573" t1="22.7753" t2="338.523" s0="10" s1="10" s2="10" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="183" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Large.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="278.772" t1="34.9341" t2="109.25" s0="13" s1="13" s2="13" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.00368" euler_y="-1.5708" euler_z="-3.00368" id="184" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building4.xml">
+    <EnvObject t0="278.772" t1="34.9341" t2="109.25" s0="13" s1="13" s2="13" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="184" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building4.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="214.223" t1="34.9341" t2="37.3463" s0="13" s1="13" s2="13" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.00368" euler_y="-1.5708" euler_z="-3.00368" id="185" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building4.xml">
+    <EnvObject t0="214.223" t1="34.9341" t2="37.3463" s0="13" s1="13" s2="13" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="185" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building4.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="278.772" t1="34.9341" t2="441.722" s0="13" s1="13" s2="13" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.00368" euler_y="-1.5708" euler_z="-3.00368" id="186" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building4.xml">
+    <EnvObject t0="278.772" t1="34.9341" t2="441.722" s0="13" s1="13" s2="13" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="186" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building4.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="118.469" t1="22.3618" t2="193.615" s0="10" s1="10" s2="10" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="187" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml">
@@ -906,16 +1082,16 @@
     <EnvObject t0="-778.474" t1="49.5059" t2="-45.0951" s0="20" s1="20" s2="20" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="194" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/tri.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-43.4969" t1="23.5258" t2="-190.597" s0="10" s1="10" s2="10" q0="0.462739" q1="0.534671" q2="-0.534671" q3="0.462739" euler_x="-1.5708" euler_y="1.42682" euler_z="3.14159" id="195" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="-43.4969" t1="23.5258" t2="-190.597" s0="10" s1="10" s2="10" q0="0.462739" q1="0.534671" q2="-0.534671" q3="0.462739" euler_x="-1.5708" euler_y="1.42681" euler_z="3.14159" id="195" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="21.2855" t1="14.4434" t2="-201.258" s0="10" s1="10" s2="11.1011" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="196" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-142.464" t1="23.5258" t2="-176.247" s0="10" s1="10" s2="10" q0="0.462739" q1="0.534671" q2="-0.534671" q3="0.462739" euler_x="-1.5708" euler_y="1.42682" euler_z="3.14159" id="197" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="-142.464" t1="23.5258" t2="-176.247" s0="10" s1="10" s2="10" q0="0.462739" q1="0.534671" q2="-0.534671" q3="0.462739" euler_x="-1.5708" euler_y="1.42681" euler_z="3.14159" id="197" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-128.83" t1="10.4546" t2="-183.957" s0="10" s1="10" s2="10" q0="0" q1="0.362784" q2="0" q3="0.931873" euler_x="0" euler_y="0.742506" euler_z="0" id="198" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Viking boat.xml">
+    <EnvObject t0="-128.83" t1="10.4546" t2="-183.957" s0="10" s1="10" s2="10" q0="0" q1="0.362784" q2="0" q3="0.931873" euler_x="0" euler_y="0.742507" euler_z="0" id="198" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Viking boat.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-81.163" t1="10.4546" t2="-192.047" s0="10" s1="10" s2="10" q0="0" q1="0.657535" q2="0" q3="0.753424" euler_x="0" euler_y="1.43508" euler_z="0" id="199" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Viking boat.xml">
@@ -930,19 +1106,19 @@
     <EnvObject t0="-72.1131" t1="0.100621" t2="-172.074" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="202" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-69.6523" t1="0.100621" t2="-173.03" s0="10" s1="10" s2="10" q0="-0.220526" q1="-0.327696" q2="0.24701" q3="0.884856" euler_x="-0.676318" euler_y="-0.490405" euler_z="0.719993" id="203" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+    <EnvObject t0="-69.6523" t1="0.100621" t2="-173.03" s0="10" s1="10" s2="10" q0="-0.220526" q1="-0.327696" q2="0.24701" q3="0.884856" euler_x="-0.676318" euler_y="-0.490405" euler_z="0.719995" id="203" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-68.5657" t1="-0.157775" t2="-169.134" s0="10" s1="10" s2="10" q0="0.0429779" q1="0.0333801" q2="0.0245573" q3="0.998216" euler_x="0.0877371" euler_y="0.0645752" euler_z="0.0520281" id="204" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+    <EnvObject t0="-68.5657" t1="-0.157775" t2="-169.134" s0="10" s1="10" s2="10" q0="0.0429779" q1="0.0333801" q2="0.0245573" q3="0.998216" euler_x="0.0877371" euler_y="0.0645751" euler_z="0.0520281" id="204" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-171.232" t1="0" t2="-162.103" s0="10" s1="10" s2="10" q0="0.0429779" q1="0.0333801" q2="0.0245573" q3="0.998216" euler_x="0.0877371" euler_y="0.0645752" euler_z="0.0520281" id="205" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+    <EnvObject t0="-171.232" t1="0" t2="-162.103" s0="10" s1="10" s2="10" q0="0.0429779" q1="0.0333801" q2="0.0245573" q3="0.998216" euler_x="0.0877371" euler_y="0.0645751" euler_z="0.0520281" id="205" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-127.721" t1="0.0995766" t2="-154.129" s0="10" s1="10" s2="10" q0="0.0823815" q1="0.00808378" q2="0.137744" q3="0.987003" euler_x="0.165608" euler_y="-0.00673774" euler_z="0.276765" id="206" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+    <EnvObject t0="-127.721" t1="0.0995766" t2="-154.129" s0="10" s1="10" s2="10" q0="0.0823815" q1="0.00808378" q2="0.137744" q3="0.987003" euler_x="0.165608" euler_y="-0.00673773" euler_z="0.276765" id="206" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-47.729" t1="0.610309" t2="-161.545" s0="10" s1="10" s2="10" q0="0" q1="-0.808225" q2="0" q3="0.588874" euler_x="-3.14159" euler_y="-1.25933" euler_z="3.14159" id="207" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
+    <EnvObject t0="-47.729" t1="0.610309" t2="-161.545" s0="10" s1="10" s2="10" q0="0" q1="-0.808225" q2="0" q3="0.588874" euler_x="3.14159" euler_y="-1.25933" euler_z="3.14159" id="207" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-94.1126" t1="0.161711" t2="-166.235" s0="10" s1="10" s2="10" q0="-0.808225" q1="0" q2="0.588874" q3="0" euler_x="3.14159" euler_y="1.25933" euler_z="0" id="208" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
@@ -963,7 +1139,7 @@
     <EnvObject t0="-96.7799" t1="0.130211" t2="-167.762" s0="2.54063" s1="2.54063" s2="2.54063" q0="0.00483964" q1="0.838684" q2="0.0570669" q3="0.541565" euler_x="2.89833" euler_y="1.13813" euler_z="2.97398" id="213" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Rock2.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-176.717" t1="0.775647" t2="-192.191" s0="5" s1="5" s2="5" q0="0" q1="-0.394243" q2="0" q3="0.919006" euler_x="0" euler_y="-0.810487" euler_z="0" id="214" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Rock2.xml">
+    <EnvObject t0="-176.717" t1="0.775647" t2="-192.191" s0="5" s1="5" s2="5" q0="0" q1="-0.394243" q2="0" q3="0.919006" euler_x="0" euler_y="-0.810488" euler_z="0" id="214" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Rock2.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-168.232" t1="2.74181" t2="-209.424" s0="10" s1="10" s2="10" q0="0" q1="-0.180563" q2="0" q3="0.983563" euler_x="0" euler_y="-0.363118" euler_z="0" id="215" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Platformer_Pack/Rock1.xml">
@@ -972,7 +1148,7 @@
     <EnvObject t0="-148.781" t1="5.05549" t2="-140.262" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="216" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Simple_Nature_Pack/Rock1.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-137.212" t1="0" t2="-146.233" s0="10" s1="10" s2="10" q0="0" q1="-0.808225" q2="0" q3="0.588874" euler_x="-3.14159" euler_y="-1.25933" euler_z="3.14159" id="217" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
+    <EnvObject t0="-137.212" t1="0" t2="-146.233" s0="10" s1="10" s2="10" q0="0" q1="-0.808225" q2="0" q3="0.588874" euler_x="3.14159" euler_y="-1.25933" euler_z="3.14159" id="217" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ships/Boat.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-49.6585" t1="-1.90735e-006" t2="-207.746" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="218" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml">
@@ -981,27 +1157,27 @@
     <EnvObject t0="-1236.62" t1="49.506" t2="-331.743" s0="20" s1="20" s2="20" q0="0.316398" q1="0" q2="0" q3="0.948627" euler_x="0.64386" euler_y="0" euler_z="0" id="219" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/tri.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-265.508" t1="34.6861" t2="355.1" s0="15" s1="15" s2="15" q0="0" q1="0.888296" q2="0" q3="0.459271" euler_x="3.14159" euler_y="0.95435" euler_z="3.14159" id="220" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml">
+    <EnvObject t0="-265.508" t1="34.6861" t2="355.1" s0="15" s1="15" s2="15" q0="0" q1="0.888296" q2="0" q3="0.459271" euler_x="3.14159" euler_y="0.954348" euler_z="3.14159" id="220" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building1_Small.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-200.988" t1="56.1064" t2="459.954" s0="20" s1="20" s2="20" q0="0" q1="-0.981991" q2="0" q3="0.188926" euler_x="-3.14159" euler_y="-0.380137" euler_z="3.14159" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml">
+    <EnvObject t0="-200.988" t1="56.1064" t2="459.954" s0="20" s1="20" s2="20" q0="0" q1="-0.981991" q2="0" q3="0.188926" euler_x="3.14159" euler_y="-0.380137" euler_z="3.14159" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Buildings_Pack/Building2_Large.xml">
         <parameters />
     </EnvObject>
-    <Group t0="-123.786" t1="98.8702" t2="-6.41269" s0="100.017" s1="197.752" s2="100.013" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751191" euler_z="0" id="222" version="1">
+    <Group t0="-123.786" t1="98.8702" t2="-6.41269" s0="100.017" s1="197.752" s2="100.013" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="222" version="1">
         <parameters />
-        <EnvObject t0="-123.785" t1="148.813" t2="-6.4161" s0="10" s1="10" s2="10" q0="0.366826" q1="0" q2="0.930289" q3="0" euler_x="0" euler_y="-0.751191" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+        <EnvObject t0="-123.785" t1="148.813" t2="-6.4161" s0="10" s1="10" s2="10" q0="0.366826" q1="0" q2="0.930289" q3="0" euler_x="0" euler_y="-0.751189" euler_z="3.14159" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
             <parameters />
         </EnvObject>
-        <EnvObject t0="-123.788" t1="49.0272" t2="-6.40926" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751191" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
+        <EnvObject t0="-123.788" t1="49.0272" t2="-6.40926" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="-123.788" t1="24.9994" t2="-6.40926" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751191" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml">
+        <EnvObject t0="-123.788" t1="24.9994" t2="-6.40926" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="-123.785" t1="172.741" t2="-6.41611" s0="10" s1="10" s2="10" q0="-0.930289" q1="0" q2="0.366826" q3="0" euler_x="-3.14159" euler_y="0.751191" euler_z="0" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+        <EnvObject t0="-123.785" t1="172.741" t2="-6.41611" s0="10" s1="10" s2="10" q0="-0.930289" q1="0" q2="0.366826" q3="0" euler_x="3.14159" euler_y="0.751189" euler_z="0" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
             <parameters />
         </EnvObject>
-        <EnvObject t0="-121.41" t1="106.074" t2="-9.05718" s0="10.2418" s1="25.8318" s2="6.45431" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751191" euler_z="0" id="68" color_r="0" color_g="1" color_b="0.0238097" overbright="5" type_file="Data/Prototypes/MagmaArena/MagmaFlow_Fall2.xml">
+        <EnvObject t0="-121.41" t1="106.074" t2="-9.05718" s0="10.2418" s1="25.8318" s2="6.45431" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="68" color_r="0" color_g="1" color_b="0.0238097" overbright="5" type_file="Data/Prototypes/MagmaArena/MagmaFlow_Fall2.xml">
             <parameters />
         </EnvObject>
     </Group>
@@ -1011,24 +1187,63 @@
     <EnvObject t0="-215.56" t1="2.07304" t2="118.76" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="224" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-171.852" t1="2.07304" t2="128.904" s0="5" s1="5" s2="5" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="-1.57045" euler_z="0" id="225" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
+    <EnvObject t0="-171.852" t1="2.07304" t2="128.904" s0="5" s1="5" s2="5" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="225" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Fence.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-224.073" t1="4.44563" t2="140.451" s0="5" s1="5" s2="5" q0="0" q1="-0.987785" q2="0" q3="-0.155821" euler_x="3.14159" euler_y="0.312917" euler_z="3.14159" id="226" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/ChickenCoop.xml">
+    <EnvObject t0="-224.073" t1="4.44563" t2="140.451" s0="5" s1="5" s2="5" q0="0" q1="-0.987785" q2="0" q3="-0.155821" euler_x="-3.14159" euler_y="0.312917" euler_z="-3.14159" id="226" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/ChickenCoop.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-214.72" t1="-1.90735e-006" t2="133.173" s0="2" s1="2" s2="2" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="227" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Food_Pack/ChickenLeg.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-214.72" t1="0" t2="130.542" s0="2" s1="2" s2="2" q0="0.284574" q1="0.514825" q2="-0.186165" q3="0.786966" euler_x="0.693958" euler_y="1.15863" euler_z="0" id="228" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Food_Pack/ChickenLeg.xml">
+    <EnvObject t0="-214.72" t1="0" t2="130.542" s0="2" s1="2" s2="2" q0="0.284574" q1="0.514825" q2="-0.186165" q3="0.786966" euler_x="0.693959" euler_y="1.15863" euler_z="1.33911e-006" id="228" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Food_Pack/ChickenLeg.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-188.477" t1="13.2873" t2="84.146" s0="3.77013" s1="3.77013" s2="3.77013" q0="0" q1="0.687604" q2="0" q3="0.726085" euler_x="1.5911e-006" euler_y="1.51637" euler_z="1.50677e-006" id="229" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/WaterTower.xml">
+    <EnvObject t0="-176.56" t1="13.2873" t2="113.253" s0="3.77013" s1="3.77013" s2="3.77013" q0="0" q1="0.735096" q2="0" q3="-0.677962" euler_x="3.14159" euler_y="-1.48996" euler_z="-3.14159" id="229" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/WaterTower.xml">
         <parameters />
     </EnvObject>
-    <Decal t0="-238.195" t1="-9.05968" t2="101.75" s0="44.6829" s1="21.5347" s2="33.3182" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="230" type_file="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <Decal t0="-238.195" t1="-0.391359" t2="101.75" s0="44.6829" s1="1.40678" s2="33.3182" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="230" type_file="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
+    <ItemObject t0="-232.293" t1="0.0999998" t2="144.483" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="235" type_file="Data/Items/DogWeapons/DogSpear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <EnvObject t0="-151.764" t1="27.6748" t2="99.3696" s0="5" s1="5" s2="5" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="245" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/TowerWindmill.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-303.854" t1="13.9165" t2="159.109" s0="5" s1="5" s2="5" q0="0" q1="0.829876" q2="0" q3="0.557948" euler_x="3.14159" euler_y="1.18382" euler_z="3.14159" id="248" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Silo.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-284.981" t1="2.81559" t2="166.069" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="249" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-318.163" t1="13.9165" t2="164.94" s0="5" s1="5" s2="5" q0="0" q1="0.829876" q2="0" q3="0.557948" euler_x="3.14159" euler_y="1.18382" euler_z="3.14159" id="251" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/Silo.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-274.803" t1="2.17834" t2="100.567" s0="5" s1="5" s2="5" q0="-0.224528" q1="-0.224528" q2="0.670513" q3="0.670513" euler_x="-0.646247" euler_y="0" euler_z="1.5708" id="252" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-269.501" t1="2.17834" t2="107.655" s0="5" s1="5" s2="5" q0="-0.483391" q1="-0.483391" q2="0.516075" q3="0.516075" euler_x="-1.50542" euler_y="0" euler_z="1.5708" id="253" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-282.139" t1="2.17834" t2="110.292" s0="5" s1="5" s2="5" q0="-0.108125" q1="-0.108125" q2="0.698791" q3="0.698791" euler_x="-0.307029" euler_y="0" euler_z="1.5708" id="254" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-277.583" t1="2.79714" t2="107.505" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="255" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-239.945" t1="0.630817" t2="91.687" s0="0.741393" s1="0.741393" s2="0.741393" q0="-0.631653" q1="-0.747052" q2="0.133776" q3="0.158216" euler_x="-2.72936" euler_y="-0.0674424" euler_z="1.7237" id="257" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Pig.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-305.596" t1="2.22196" t2="117.286" s0="1" s1="1" s2="1" q0="0" q1="-0.9783" q2="0" q3="0.207191" euler_x="3.14159" euler_y="-0.417405" euler_z="-3.14159" id="258" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Animals/Pig.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-239.489" t1="1.2859" t2="91.9536" s0="6.51958" s1="4.06557" s2="4.86138" q0="-0.329119" q1="-0.787156" q2="-0.181049" q3="0.48916" euler_x="-3.0607" euler_y="-1.09573" euler_z="2.30016" id="261" type_file="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="-204.668" t1="7.51497" t2="84.073" s0="3.28904" s1="3.28904" s2="3.28904" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="262" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/OpenBarn.xml">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
@@ -1074,7 +1289,6 @@
     <SpawnerItem display_name="fire.xml" path="Data/Objects/fire.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Strata Rock Capital Mossy" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_capital_mossy.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_capital_mossy.png" />
     <SpawnerItem display_name="Camp All Assets" path="Data/Objects/Environment/camp/camp_all_assets.xml" thumbnail_path="Data/UI/spawner/thumbs/Prefabs/camp_all_assets.png" />
-    <SpawnerItem display_name="Dog Spear" path="Data/Items/DogWeapons/DogSpear.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wspear.png" />
     <SpawnerItem display_name="Placeholder" path="Data/Objects/placeholder/empty_placeholder.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Cliff Rock 04" path="Data/Objects/Environment/Cliffs/CliffRock_04.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Cliff_Rock_04.png" />
     <SpawnerItem display_name="Sharp Wooden Stick Long" path="Data/Objects/Environment/camp/sharp_stick_long.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/sharp_stick_long.png" />
@@ -1171,7 +1385,6 @@
     <SpawnerItem display_name="Hanging Lamp 2" path="Data/Prototypes/CaveArena/HangingLamp_2.xml" thumbnail_path="" />
     <SpawnerItem display_name="Hanging Lamp 3" path="Data/Prototypes/CaveArena/HangingLamp_3.xml" thumbnail_path="" />
     <SpawnerItem display_name="Hanging Lamp 4" path="Data/Prototypes/CaveArena/HangingLamp_4.xml" thumbnail_path="" />
-    <SpawnerItem display_name="Hanging Lamp 1" path="Data/Prototypes/CaveArena/HangingLamp_1.xml" thumbnail_path="" />
     <SpawnerItem display_name="rain.xml" path="Data/Objects/Hotspots/rain.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="rain.xml" path="Data/Objects/stronghold/hotspots/rain.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="thunder.xml" path="Data/Objects/stronghold/hotspots/thunder.xml" thumbnail_path="empty_placeholder.png" />
@@ -1263,4 +1476,10 @@
     <SpawnerItem display_name="Chickenleg" path="Data/Objects/quaternius/Ultimate_Food_Pack/ChickenLeg.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ultimate_Food_Pack/ChickenLeg_N.png" />
     <SpawnerItem display_name="Watertower" path="Data/Objects/quaternius/Farm_Buildings/WaterTower.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/WaterTower_N.png" />
     <SpawnerItem display_name="Dripping Rust Spot" path="Data/Objects/Decals/crete_stains/dripping_rust_spot.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/dripping_rust_spot.png" />
+    <SpawnerItem display_name="Dog Spear" path="Data/Items/DogWeapons/DogSpear.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wspear.png" />
+    <SpawnerItem display_name="Towerwindmill" path="Data/Objects/quaternius/Farm_Buildings/TowerWindmill.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/TowerWindmill_N.png" />
+    <SpawnerItem display_name="Pig" path="Data/Objects/quaternius/Farm_Animals/Pig.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Animals/Pig_N.png" />
+    <SpawnerItem display_name="Openbarn" path="Data/Objects/quaternius/Farm_Buildings/OpenBarn.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Buildings/OpenBarn_N.png" />
+    <SpawnerItem display_name="Hanging Lamp 1" path="Data/Prototypes/CaveArena/HangingLamp_1.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Barrel" path="Data/Objects/quaternius/Modular_Dungeon_Pack/Barrel.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Modular_Dungeon_Pack/Barrel_N.png" />
 </RecentItems>

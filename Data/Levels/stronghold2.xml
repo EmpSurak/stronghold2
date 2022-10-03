@@ -49,10 +49,10 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-125.577" t1="6.53322" t2="104.165" s0="1" s1="1" s2="1" q0="-0.145878" q1="0.53807" q2="-0.0951766" q3="-0.824707" euler_x="0.350148" euler_y="-1.15617" euler_z="0" id="1">
+    <CameraObject t0="-43.5818" t1="67.004" t2="-119.569" s0="1" s1="1" s2="1" q0="0.0544026" q1="0.927577" q2="-0.338199" q3="0.14921" euler_x="-2.44234" euler_y="0.318987" euler_z="3.14159" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="-0.157479" q1="7.45058e-006" q2="-0.988668" q3="-0.000152782" euler_x="3.513e-005" euler_y="-0.316655" euler_z="3.14128" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.47693" q1="0.000100613" q2="-0.88029" q3="-0.000123382" euler_x="-0.00054089" euler_y="0.996683" euler_z="3.14102" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
@@ -256,7 +256,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.964856" q1="-7.20918e-005" q2="0.258574" q3="2.12879e-005" euler_x="-3.1415" euler_y="0.522415" euler_z="0.000173299" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.181986" q1="-1.41859e-005" q2="0.982139" q3="7.76798e-005" euler_x="-6.01205e-005" euler_y="0.365558" euler_z="3.14142" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="52" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -2485,7 +2485,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="1.09" />
+            <parameter name="Movement Speed" type="float" val="1.22" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -2529,11 +2529,11 @@
     </ActorObject>
     <ActorObject name="Gamma Squad Leader 1" t0="42.4039" t1="1" t2="-64.8047" s0="1" s1="1" s2="1" q0="0" q1="0.992875" q2="0" q3="-0.119164" euler_x="3.14159" euler_y="-0.238896" euler_z="3.14159" id="358" type_file="Data/Objects/stronghold2/characters/rabbot_flag_bearer_actor.xml" is_player="0">
         <parameters>
-            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Aggression" type="float" val="0.75" />
             <parameter name="Attack Damage" type="float" val="1" />
             <parameter name="Attack Knockback" type="float" val="1" />
             <parameter name="Attack Speed" type="float" val="1" />
-            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Follow-up" type="float" val="0.6" />
             <parameter name="Block Skill" type="float" val="0.5" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
@@ -2551,7 +2551,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="0.8" />
+            <parameter name="Movement Speed" type="float" val="1.3" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -2595,7 +2595,7 @@
     </ActorObject>
     <ActorObject name="Gamma Squad 2" t0="46.9671" t1="1" t2="-64.8681" s0="1" s1="1" s2="1" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="362" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
-            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Aggression" type="float" val="0.7" />
             <parameter name="Attack Damage" type="float" val="1" />
             <parameter name="Attack Knockback" type="float" val="1" />
             <parameter name="Attack Speed" type="float" val="1" />
@@ -2615,9 +2615,9 @@
             <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
             <parameter name="Focus FOV vertical" type="float" val="0.62834" />
             <parameter name="Ground Aggression" type="float" val="0.5" />
-            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Knockout Shield" type="int" val="1" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Movement Speed" type="float" val="1.35" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -2673,7 +2673,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="1" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="1.1" />
+            <parameter name="Movement Speed" type="float" val="1.25" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -2719,7 +2719,7 @@
     </EnvObject>
     <ActorObject name="Gamma Squad 1" t0="45.3883" t1="1" t2="-62.1335" s0="1" s1="1" s2="1" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="370" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
-            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Aggression" type="float" val="0.6" />
             <parameter name="Attack Damage" type="float" val="1" />
             <parameter name="Attack Knockback" type="float" val="1" />
             <parameter name="Attack Speed" type="float" val="1" />
@@ -2741,7 +2741,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Movement Speed" type="float" val="1.35" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -2871,7 +2871,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Movement Speed" type="float" val="1.35" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -2933,7 +2933,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Movement Speed" type="float" val="1.35" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -2969,10 +2969,10 @@
         <parameters>
             <parameter name="Aggression" type="float" val="0.8" />
             <parameter name="Attack Damage" type="float" val="1" />
-            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1.3" />
             <parameter name="Attack Speed" type="float" val="1" />
             <parameter name="Block Follow-up" type="float" val="0.5" />
-            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.6" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1" />
@@ -2989,7 +2989,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="2" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="1.1" />
+            <parameter name="Movement Speed" type="float" val="1.25" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -3033,7 +3033,7 @@
             <parameter name="Attack Damage" type="float" val="1" />
             <parameter name="Attack Knockback" type="float" val="1.1" />
             <parameter name="Attack Speed" type="float" val="1.2" />
-            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Follow-up" type="float" val="0.6" />
             <parameter name="Block Skill" type="float" val="0.5" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
@@ -3051,7 +3051,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="1.1" />
+            <parameter name="Movement Speed" type="float" val="1.25" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -3217,11 +3217,11 @@
     <ActorObject name="Delta Squad 4" t0="-330.501" t1="1" t2="-1.18504" s0="1" s1="1" s2="1" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="395" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.9" />
-            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Damage" type="float" val="1.2" />
             <parameter name="Attack Knockback" type="float" val="1" />
             <parameter name="Attack Speed" type="float" val="1.1" />
             <parameter name="Block Follow-up" type="float" val="0.5" />
-            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.4" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1.2" />
@@ -3238,7 +3238,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="1.1" />
+            <parameter name="Movement Speed" type="float" val="1.25" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="0" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />

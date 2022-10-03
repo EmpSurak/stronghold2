@@ -49,10 +49,10 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-14.6978" t1="101.029" t2="-56.9932" s0="1" s1="1" s2="1" q0="-0.0423226" q1="0.932301" q2="-0.339927" q3="-0.116076" euler_x="-2.44233" euler_y="-0.247735" euler_z="3.14159" id="1">
+    <CameraObject t0="-44.5019" t1="12.0183" t2="158.964" s0="1" s1="1" s2="1" q0="-0.214957" q1="-0.229484" q2="0.0520433" q3="-0.947851" euler_x="0.446024" euler_y="0.475077" euler_z="0" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.998911" q1="8.4728e-005" q2="0.060404" q3="1.88523e-005" euler_x="3.14154" euler_y="-0.120971" euler_z="0.00017281" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.200208" q1="3.63588e-006" q2="0.980529" q3="9.20594e-005" euler_x="4.78262e-005" euler_y="-0.403477" euler_z="3.1414" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
@@ -256,7 +256,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.993836" q1="-4.82351e-005" q2="-0.104448" q3="-2.05003e-005" euler_x="3.14154" euler_y="-0.209129" euler_z="0.000102392" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.62886" q1="-4.45843e-005" q2="0.776595" q3="2.7494e-005" euler_x="-0.000496613" euler_y="1.35468" euler_z="3.14111" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="52" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -1322,7 +1322,7 @@
     <ItemObject t0="-72.2915" t1="1.79443" t2="-191.328" s0="1" s1="1" s2="1" q0="0" q1="0" q2="-0.707107" q3="0.707107" euler_x="0" euler_y="0" euler_z="-1.5708" id="241" type_file="Data/Items/DogWeapons/DogGlaive.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
-    <Hotspot name="Enable First Bomber" t0="-44.7889" t1="2.104" t2="145.758" s0="10.6097" s1="1" s2="2.92198" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="242" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    <Hotspot name="Enable First Bomber" t0="-29.4136" t1="2.104" t2="144.297" s0="5.44843" s1="1" s2="2.19138" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="242" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
@@ -1343,7 +1343,7 @@
     <EnvObject t0="-151.764" t1="27.6748" t2="99.3696" s0="5" s1="5" s2="5" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="245" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Farm_Buildings/TowerWindmill.xml">
         <parameters />
     </EnvObject>
-    <Hotspot name="Enable Vikings" t0="-96.6308" t1="2.6661" t2="-135.241" s0="0.891714" s1="0.891743" s2="5.24196" q0="0" q1="0.754952" q2="0" q3="0.655779" euler_x="3.14159" euler_y="1.43043" euler_z="3.14159" id="246" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    <Hotspot name="Enable Vikings" t0="-96.6308" t1="2.6661" t2="-135.241" s0="0.891714" s1="0.891743" s2="5.24196" q0="0" q1="0.754952" q2="0" q3="0.655779" euler_x="3.14159" euler_y="1.43042" euler_z="3.14159" id="246" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
@@ -1988,6 +1988,9 @@
     <EnvObject t0="-43.4089" t1="-0.884205" t2="-200.68" s0="0.571968" s1="0.571968" s2="0.571968" q0="0" q1="-0.313236" q2="0" q3="0.949676" euler_x="0" euler_y="-0.637198" euler_z="0" id="297" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Animated_Monster_Pack/Skeleton.xml">
         <parameters />
     </EnvObject>
+    <EnvObject name="AIControl Helper" t0="-96.6308" t1="4.6661" t2="-135.241" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="298" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
     <ItemObject t0="-76.9122" t1="1.79443" t2="-191.328" s0="1" s1="1" s2="1" q0="0" q1="0" q2="-0.707107" q3="0.707107" euler_x="0" euler_y="0" euler_z="-1.5708" id="299" type_file="Data/Items/DogWeapons/DogGlaive.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
@@ -2111,6 +2114,9 @@
             <Connection id="313" />
         </Connections>
     </PathPointObject>
+    <EnvObject name="AIControl Helper" t0="-96.6308" t1="4.6661" t2="-135.241" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="315" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
     <PathPointObject t0="51.5303" t1="0" t2="197.007" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="316" type_file="">
         <parameters>
             <parameter name="Type" type="string" val="Stand" />
@@ -2214,6 +2220,15 @@
         <parameters />
     </EnvObject>
     <EnvObject name="AIControl Helper" t0="-27.7556" t1="4.20526" t2="-46.122" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="328" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="Set Velocity Helper" t0="-29.5716" t1="17.9561" t2="-65.2276" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="329" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="AIControl Helper" t0="-217.526" t1="4.23466" t2="24.352" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="330" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="AIControl Helper" t0="-27.7556" t1="4.20526" t2="-46.122" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="331" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
     <Hotspot t0="-286.179" t1="1.95458" t2="162.216" s0="1" s1="1" s2="1.75824" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="332" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
@@ -2645,7 +2660,7 @@
             <parameters />
         </EnvObject>
     </ActorObject>
-    <EnvObject t0="246.974" t1="2.62984" t2="190.085" s0="10" s1="10" s2="10" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="5.88379e-005" euler_y="1.5708" euler_z="5.87747e-005" id="366" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Street_Pack/Sign_Stop.xml">
+    <EnvObject t0="246.974" t1="2.62984" t2="190.085" s0="10" s1="10" s2="10" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="366" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Street_Pack/Sign_Stop.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-110.981" t1="22.5454" t2="-238.285" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="367" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
@@ -3035,7 +3050,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="-281.426" t1="2.61917" t2="-129.028" s0="10" s1="10" s2="10" q0="0" q1="-0.472167" q2="0" q3="0.881509" euler_x="0" euler_y="-0.983496" euler_z="0" id="389" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Street_Pack/Sign_Stop.xml">
+    <EnvObject t0="-281.426" t1="2.61917" t2="-129.028" s0="10" s1="10" s2="10" q0="0" q1="-0.472167" q2="0" q3="0.881509" euler_x="0" euler_y="-0.983495" euler_z="0" id="389" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Street_Pack/Sign_Stop.xml">
         <parameters />
     </EnvObject>
     <ActorObject name="Viking 2" t0="-75.6576" t1="2.91269" t2="-191.587" s0="1" s1="1" s2="1" q0="0" q1="-0.210063" q2="0" q3="0.977687" euler_x="0" euler_y="-0.423278" euler_z="0" id="391" type_file="Data/Objects/stronghold2/characters/rabbot_soldier_actor.xml" is_player="0">
@@ -3280,7 +3295,13 @@
     <EnvObject t0="-320.511" t1="29.81" t2="-81.64" s0="10" s1="10" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="409" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
-    <EnvObject t0="78.6002" t1="2.21125" t2="-194.163" s0="10" s1="10" s2="10" q0="0" q1="0.802843" q2="0" q3="-0.596191" euler_x="-3.14159" euler_y="-1.2775" euler_z="3.14159" id="412" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Street_Pack/Sign_Stop.xml">
+    <EnvObject t0="-50.4493" t1="0.478185" t2="137.783" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="411" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="78.6002" t1="2.21125" t2="-194.163" s0="10" s1="10" s2="10" q0="0" q1="0.802843" q2="0" q3="-0.596191" euler_x="3.14159" euler_y="-1.2775" euler_z="3.14159" id="412" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Street_Pack/Sign_Stop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-49.4935" t1="0.478186" t2="138.949" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0.0200973" q3="0.999798" euler_x="0" euler_y="0" euler_z="0.0401972" id="413" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
         <parameters />
     </EnvObject>
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="414" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -3299,6 +3320,45 @@
         <parameters />
     </EnvObject>
     <EnvObject name="AIControl Helper" t0="-27.7556" t1="4.20526" t2="-46.122" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="419" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-49.0786" t1="0.478186" t2="137.559" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="420" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-50.6258" t1="0.478187" t2="136.108" s0="5" s1="5" s2="5" q0="-0.0703231" q1="0" q2="0" q3="0.997524" euler_x="-0.140762" euler_y="0" euler_z="0" id="421" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-50.6258" t1="0.478187" t2="137.1" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="422" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-50.8454" t1="1.42584" t2="137.657" s0="5" s1="5" s2="5" q0="0" q1="0" q2="-0.00586019" q3="0.999983" euler_x="0" euler_y="0" euler_z="-0.0117205" id="423" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-78.217" t1="2.24543" t2="125.269" s0="1" s1="2.42513" s2="3.04736" q0="0" q1="-0.276618" q2="0" q3="0.96098" euler_x="0" euler_y="-0.560545" euler_z="0" id="424" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-60.8723" t1="0.477624" t2="130.747" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="425" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-59.9191" t1="0.478657" t2="131.68" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0.0568669" q3="0.998382" euler_x="0" euler_y="0" euler_z="0.113795" id="426" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-59.9191" t1="0.476305" t2="130.601" s0="5" s1="5" s2="5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="427" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-51.3325" t1="0.478187" t2="137.794" s0="5" s1="5" s2="5" q0="0" q1="0" q2="-0.0441645" q3="0.999024" euler_x="0" euler_y="0" euler_z="-0.0883577" id="428" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-49.9632" t1="1.70351" t2="137.939" s0="2.2274" s1="1.74717" s2="0.999996" q0="0" q1="-0.230504" q2="0" q3="0.973071" euler_x="0" euler_y="-0.465191" euler_z="0" id="429" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-7.67083" t1="0.788205" t2="152.463" s0="5" s1="5" s2="5" q0="0" q1="0.950446" q2="0" q3="0.310889" euler_x="3.14159" euler_y="0.632255" euler_z="3.14159" id="430" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Medieval_Village_Pack/Bench_1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-7.30299" t1="2.5984" t2="152.33" s0="0.999995" s1="2.86577" s2="1.87986" q0="0" q1="0.437583" q2="0" q3="0.899178" euler_x="0" euler_y="0.905818" euler_z="0" id="431" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-60.3022" t1="1.84528" t2="131.347" s0="1.73892" s1="2.84528" s2="0.701639" q0="0" q1="-0.232959" q2="0" q3="0.972487" euler_x="0" euler_y="-0.470238" euler_z="0" id="434" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="441" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -3473,7 +3533,6 @@
     <SpawnerItem display_name="object_remover.xml" path="Data/Objects/stronghold/hotspots/object_remover.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="victory.xml" path="Data/Objects/stronghold/hotspots/victory.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Hatchet" path="Data/Objects/therium/hatchet.xml" thumbnail_path="" />
-    <SpawnerItem display_name="Invisible Block" path="Data/Objects/invisibleblock.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/invisibleblock.png" />
     <SpawnerItem display_name="Particle Occluder Hotspot" path="Data/Objects/Hotspots/particle_occluder.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/emitter_icon.png" />
     <SpawnerItem display_name="Ruin Wall" path="Data/Objects/Buildings/Ruins/mysterious/ruin_wall.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/ruin_wall.png" />
     <SpawnerItem display_name="Ruin Arch" path="Data/Objects/Buildings/Ruins/mysterious/ruin_arch.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/ruin_arch.png" />
@@ -3528,7 +3587,6 @@
     <SpawnerItem display_name="Viking Boat" path="Data/Objects/quaternius/Ships/Viking boat.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ships/Viking boat_N.png" />
     <SpawnerItem display_name="Frog" path="Data/Objects/quaternius/Easy_Animated_Enemy_Pack/Frog.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Easy_Animated_Enemy_Pack/Frog_N.png" />
     <SpawnerItem display_name="Fall Leaves" path="Data/Objects/Decals/fall_leaves.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/fall_leaves.png" />
-    <SpawnerItem display_name="Barrel" path="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Medieval_Village_Pack/Barrel_N.png" />
     <SpawnerItem display_name="Boat" path="Data/Objects/quaternius/Ships/Boat.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ships/Boat_N.png" />
     <SpawnerItem display_name="Flower3" path="Data/Objects/quaternius/Textured_Fantasy_Nature/Flower3.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Textured_Fantasy_Nature/Flower3_N.png" />
     <SpawnerItem display_name="Rock2" path="Data/Objects/quaternius/Modular_Dungeon_Pack/Rock2.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Modular_Dungeon_Pack/Rock2_N.png" />
@@ -3572,4 +3630,7 @@
     <SpawnerItem display_name="Path Point" path="Data/Objects/pathpoint/pathpoint.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/pathpoint.png" />
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Sign Stop" path="Data/Objects/quaternius/Street_Pack/Sign_Stop.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Street_Pack/Sign_Stop_N.png" />
+    <SpawnerItem display_name="Barrel" path="Data/Objects/quaternius/Medieval_Village_Pack/Barrel.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Medieval_Village_Pack/Barrel_N.png" />
+    <SpawnerItem display_name="Bench 1" path="Data/Objects/quaternius/Medieval_Village_Pack/Bench_1.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Medieval_Village_Pack/Bench_1_N.png" />
+    <SpawnerItem display_name="Invisible Block" path="Data/Objects/invisibleblock.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/invisibleblock.png" />
 </RecentItems>

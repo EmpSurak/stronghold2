@@ -9,7 +9,7 @@
     <PreviewImage>Data/Images/stronghold2/thumb.jpg</PreviewImage>
 
     <Description>Stronghold: Reloaded</Description>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Author>Surak</Author>
     <Tag>Scripting</Tag>
     <Tag>Level</Tag>
@@ -42,5 +42,5 @@
        <Version>0.1.0</Version> 
     </ModDependency>
 
-    <Level title="Stronghold2" thumbnail="UI/mainmenu/images/stronghold2.png">stronghold2.xml</Level>
+    <Level title="Stronghold 2" thumbnail="UI/mainmenu/images/stronghold2.png">stronghold2.xml</Level>
 </Mod>

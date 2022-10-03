@@ -221,6 +221,14 @@ void Init(string level_name){
             }
         }
     }));
+    
+    timer.Add(AfterInitJob(function(){
+        int num = GetNumCharacters();
+        for(int i = 0; i < num; ++i){
+            MovementObject@ char = ReadCharacter(i);
+            char.Execute("invincible = false;");
+        }
+    }));
 }
 
 void Update(int is_paused){

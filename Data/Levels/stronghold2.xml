@@ -49,10 +49,10 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-13.0542" t1="6.84346" t2="128.064" s0="1" s1="1" s2="1" q0="-0.0761446" q1="0.893804" q2="-0.166196" q3="-0.409505" euler_x="-2.77391" euler_y="-0.859238" euler_z="-3.14159" id="1">
+    <CameraObject t0="-132.425" t1="2.8669" t2="100.932" s0="1" s1="1" s2="1" q0="0.0755643" q1="-0.618065" q2="0.0598615" q3="0.780194" euler_x="0.193105" euler_y="-1.33993" euler_z="0" id="1">
         <parameters />
     </CameraObject>
-    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="0.103706" q1="4.78029e-005" q2="-0.995928" q3="-0.000169285" euler_x="-0.000133193" euler_y="0.208066" euler_z="3.14124" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyram Exhaust" t0="-123.784" t1="148.812" t2="-6.414" s0="10" s1="10" s2="10" q0="-0.103706" q1="-4.82202e-005" q2="0.995933" q3="0.000170369" euler_x="-0.000134273" euler_y="0.208065" euler_z="3.14124" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject t0="-123.787" t1="49.0262" t2="-6.40689" s0="10" s1="10" s2="10" q0="0" q1="0.366826" q2="0" q3="0.930289" euler_x="0" euler_y="0.751189" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Turret_Pack/Teleporter3.xml">
@@ -256,7 +256,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="-0.104354" q1="-6.02007e-006" q2="0.993273" q3="8.46265e-005" euler_x="-3.02809e-005" euler_y="0.208819" euler_z="3.14142" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
+    <EnvObject name="Upper Pyramid" t0="-123.778" t1="172.743" t2="-6.413" s0="10" s1="10" s2="10" q0="0.104353" q1="5.96046e-006" q2="-0.99327" q3="-8.45967e-005" euler_x="-3.01533e-005" euler_y="0.208816" euler_z="3.14142" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/pyra.xml" no_navmesh="true">
         <parameters />
     </EnvObject>
     <EnvObject name="Set Velocity Helper" t0="-296.739" t1="17.9561" t2="-118.068" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="52" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -2336,7 +2336,7 @@
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Second Bomber&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Sir Purrington&quot;,&quot;identifier_type&quot;:3},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Second Bomber&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Additional units trapped behind barn.&quot;,&quot;voice_over_path&quot;:&quot;Data/Sounds/stronghold2/dialogue/barn.wav&quot;},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Sir Purrington&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Alright then.&quot;,&quot;voice_over_path&quot;:&quot;Data/Sounds/stronghold2/dialogue/alright.wav&quot;},{&quot;dialogue_control&quot;:false,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Sir Purrington&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;checkpoint_mode&quot;:0,&quot;function&quot;:37}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Second Bomber&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:0,&quot;identifier_type&quot;:10,&quot;reference_string&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Sir Purrington&quot;,&quot;identifier_type&quot;:3},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[-137.01271057128906,1.4092140197753906,99.185371398925781],&quot;target_camera_rotation&quot;:[-0,90,0],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Second Bomber&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Additional units trapped behind barn.&quot;,&quot;voice_over_path&quot;:&quot;Data/Sounds/stronghold2/dialogue/barn.wav&quot;},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[-140.69520568847656,2.4128003120422363,99.580673217773437],&quot;target_camera_rotation&quot;:[-42.634429931640625,-89.999969482421875,-1.3023840438108891e-005],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Sir Purrington&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Alright then.&quot;,&quot;voice_over_path&quot;:&quot;Data/Sounds/stronghold2/dialogue/alright.wav&quot;},{&quot;dialogue_control&quot;:false,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Sir Purrington&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;checkpoint_mode&quot;:0,&quot;function&quot;:37}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -3344,10 +3344,10 @@
         </Connections>
         <ItemConnections />
         <Palette>
-            <Color label="Fur" channel="0" red="0.207843" green="0.109804" blue="0.0392157" />
-            <Color label="Leather" channel="1" red="1" green="1" blue="1" />
-            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
-            <Color label="Pants" channel="3" red="1" green="1" blue="1" />
+            <Color label="Fur" channel="0" red="0.411765" green="0.286275" blue="0.211765" />
+            <Color label="Pants" channel="1" red="0.562091" green="0.460915" blue="0.357386" />
+            <Color label="Shirt" channel="2" red="0.193856" green="0.233856" blue="0.317386" />
+            <Color label="Leather" channel="3" red="0.340392" green="0.175686" blue="0.236863" />
         </Palette>
         <EnvObjectAttachments>
             <EnvObjectAttachment>
@@ -3436,6 +3436,9 @@
     <EnvObject name="AIControl Helper" t0="-27.7556" t1="4.20526" t2="-46.122" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="443" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
+    <EnvObject name="AIControl Helper" t0="-96.6308" t1="4.6661" t2="-135.241" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="445" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject name="AIControl Helper" t0="-96.6308" t1="4.6661" t2="-135.241" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="446" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
@@ -3464,6 +3467,12 @@
         <parameters />
     </EnvObject>
     <EnvObject name="AIControl Helper" t0="-27.7556" t1="4.20526" t2="-46.122" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="455" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="AIControl Helper" t0="-96.6308" t1="4.6661" t2="-135.241" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="456" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="Set Velocity Helper" t0="-29.5716" t1="17.9561" t2="-65.2276" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="457" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
     <EnvObject name="AIControl Helper" t0="-96.6308" t1="4.6661" t2="-135.241" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="458" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -3502,6 +3511,9 @@
     <EnvObject t0="195.875" t1="2.56247" t2="41.3741" s0="10" s1="10" s2="10" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="469" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Street_Pack/Sign_Stop.xml">
         <parameters />
     </EnvObject>
+    <EnvObject name="AIControl Helper" t0="-200.661" t1="5.16929" t2="29.5627" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="470" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject name="AIControl Helper" t0="-96.6308" t1="4.6661" t2="-135.241" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="471" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
@@ -3515,6 +3527,9 @@
         <parameters />
     </EnvObject>
     <EnvObject name="AIControl Helper" t0="-27.7556" t1="4.20526" t2="-46.122" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="475" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="AIControl Helper" t0="-27.7556" t1="4.20526" t2="-46.122" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="476" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
     <EnvObject name="AIControl Helper" t0="-96.6308" t1="4.6661" t2="-135.241" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="482" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
